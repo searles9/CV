@@ -27,6 +27,7 @@
 * add media queries
     * add a query for the nav
     * add a query so the card renders conditionally based on the screen size
+* import the poppins font
 * add global css values
 * build about me page
     * make the header part (profile pic, title, summary)
