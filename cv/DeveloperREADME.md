@@ -33,3 +33,4 @@
     * make the header part (profile pic, title, summary)
     * make a facts section
     * make social links
+* add an error element to the root route
