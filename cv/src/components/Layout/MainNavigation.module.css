@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  height: 50px;
+}
+
+.navFirstName {
+  font-weight: 600;
+}
+
+.navLastName {
+  font-weight: 400;
+}
+
+.navUl {
+  list-style: none;
+}
+
+.navUl a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.875rem;
+
+  padding-right: 1.5rem;
+}

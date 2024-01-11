@@ -1,15 +1,13 @@
 import { Outlet } from "react-router-dom";
+import PageCard from "../components/Layout/PageCard";
 
 function Root() {
   // const navigation = useNavigation();
 
   return (
-    <>
-      {/* navigation */}
-      <main>
+    <PageCard>
         <Outlet />
-      </main>
-    </>
+    </PageCard>
   );
 }
 

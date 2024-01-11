@@ -1,61 +1,25 @@
 /* 
-nav link: 14px
-nav name: 20px
-name title: 48px
-title weight: 600
-title last name: 400
-about me description: 14px (line height 1.75 rem)
-position type - sub text: font weight 300
+Standard break points:
 
-Sub section header: 21px
+--breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
 */
 
 :root {
-  --color-blue:  #007ced; /* background */
-  --color-white: #FFFFFF; /* card background color */
-  --color-black: #333333;; /* titles, bold text, nav links */
-  --color-gray: #666666; /* text */
-  --color-accent-text: #aaa /* sub accent text */
-
-  --blue: #007bff; /* background */
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-
   font-family: "Poppins", Helvetica, sans-serif; /* need to source in poppins */
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
 
-  background-color: var(--color-blue); /* Use the variable here */
-  color: white;
+  background-color: white; 
+  color: black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 body {

@@ -1,4 +1,4 @@
-export default function Card () {
+export default function Footer () {
     return (
         <div></div>
     )
