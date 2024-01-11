@@ -1,12 +1,16 @@
 import { NavLink } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
-
+//  28px
 export default function MainNavigation() {
   return (
     <header>
       <nav className={classes.nav}>
-        <div className={classes.navFirstName}>
-            <p>Donovan <span className={classes.navLastName}>Searles</span></p>
+        <div>
+          <NavLink to="/" end>
+            <p className={classes.navFirstName}>
+              Donovan <span className={classes.navLastName}>Searles</span>
+            </p>
+          </NavLink>
         </div>
         <ul className={classes.navUl}>
           <li>

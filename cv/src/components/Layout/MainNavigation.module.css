@@ -5,6 +5,11 @@
   height: 50px;
 }
 
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
 .navFirstName {
   font-weight: 600;
 }
@@ -18,9 +23,6 @@
 }
 
 .navUl a {
-  text-decoration: none;
-  color: black;
   font-size: 0.875rem;
-
   padding-right: 1.5rem;
 }
