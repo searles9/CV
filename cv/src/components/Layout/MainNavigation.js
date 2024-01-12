@@ -6,17 +6,24 @@ export default function MainNavigation() {
     <header>
       <nav className={classes.nav}>
         <div>
-          <NavLink to="/" end>
-            <p className={classes.navFirstName}>
-              Donovan <span className={classes.navLastName}>Searles</span>
-            </p>
+          <NavLink to="/" end className={classes.navLink}>
+            <div className={classes.navLogoNameContainer}>
+              <div className={classes.navLogo}>
+                <p>D</p>
+              </div>
+              <div className={classes.navName}>
+                <p className={classes.navFirstName}>
+                  Donovan <span className={classes.navLastName}>Searles</span>
+                </p>
+              </div>
+            </div>
           </NavLink>
         </div>
         <ul className={classes.navUl}>
           <li>
             <NavLink
               to="/"
-              className={({ isActive }) =>
+              className={({ isActive }) => 
                 isActive ? classes.active : undefined
               }
               end

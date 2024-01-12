@@ -7,7 +7,7 @@ export default function PageCard({ children }) {
       <div className={classes.pageContainer}>
         <div className={classes.pageCard}>
           <MainNavigation />
-          <main>
+          <main className={classes.mainContent}>
             {children}
           </main>
           <Footer />
