@@ -4,8 +4,6 @@
   margin: auto;
   height: 50px;
   padding-bottom: 40px;
-  /* width: calc(100% + 40px);
-  margin-left: -20px; */
 }
 
 .navUl a.active {
