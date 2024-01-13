@@ -11,7 +11,6 @@ export default function Contact() {
       <p>Lorem epsum</p>
       <h1>Lorem epsum</h1>
       <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
     </div>
   );
 }

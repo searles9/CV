@@ -17,7 +17,20 @@ export const resume = {
     summary:
       "Highly ambitious and self-motivated Software Engineer with 5+ years of experience in the IT field, including comprehensive knowledge and hands-on experience with AWS and Azure, programming / software development, network administration and technical support.",
   },
-  profiles: [],
+  profiles: [
+    {
+      name: "GitHub",
+      link: "https://github.com/searles9",
+    },
+    {
+      name: "LinkedIn",
+      link: "https://www.linkedin.com/in/donovansearles/",
+    },
+    {
+      name: "Blog",
+      link: "https://blog.dsearles.com/",
+    },
+  ],
   skills: [],
   work: [],
   education: [],

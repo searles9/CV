@@ -16,6 +16,7 @@
 .navUl a.active {
   text-decoration: underline;
   color: #222;
+  opacity: 1;
 }
 
 .navLogoNameContainer {
@@ -27,7 +28,7 @@
 
 .navLogo {
   width: 2.75rem;
-  height: 2.75rem;;
+  height: 2.75rem;
   font-size: 1.75rem;
   font-weight: 800;
   border-radius: 50%;
@@ -65,4 +66,10 @@
   padding-right: 2rem;
   color: #333333;
   text-decoration: none;
+  opacity: 0.6;
+}
+
+.navUl a:hover {
+  opacity: 1;
+  color: #222;
 }

@@ -5,7 +5,7 @@
     border-bottom-right-radius: 40px;
     border-top: 2px solid #f2f2f2;
     margin: 60px -40px -60px;
-    padding: 5px 45px;
+    padding: 5px 10px;
     position: absolute;
     bottom: 60px;
     width: 100%;
@@ -16,6 +16,25 @@
     font-size: 14px;
 }
 
+.footerLinks ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footerLinks a {
+    text-decoration: none;
+    color: #333;
+    opacity: .6
+}
+
+.footerLinks a:hover {
+    opacity: 1;
+    color: #222;
+}
+
 @media only screen and (max-width: 991px) {
     .footer {
         margin-right: -20px;
@@ -23,3 +42,5 @@
         border-radius: 0%;
     }
 }
+
+/* opacity: .6; */
