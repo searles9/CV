@@ -1,7 +1,10 @@
+import PageTitle from "../components/Misc/PageTitle";
+
 export default function Resume() {
   return (
     <div>
-      <h1>Resume Page</h1>
+      <PageTitle title="Resume"/>
+      <p>Lorem epsum</p>
     </div>
   );
 }

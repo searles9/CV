@@ -147,12 +147,26 @@
 
 /* ROOT STYLES */
 :root {
-  --background-color:  #007bff;
+  --color-vibrant-blue: #007bff; /* background */
+  --color-vibrant-purple: #7066ff;
+  --color-gray-800: #222; 
+  --color-gray-700: #333333; 
+  --color-gray-600: #666;
+  --color-gray-500: #aaa;
+  --color-gray-400: #d5d5d5;
+  --color-gray-300:#eeeeee;
+  --color-gray-200:#f2f2f2;
+  --color-gray-100: #fcfcfc;
+  --color-white: #fff;
+
+
+
+
   font-family: "Poppins", Helvetica, sans-serif;
   font-size: 16px;
   line-height: 24px;
 
-  background-color: var(--background-color); 
+  background-color: var(--color-vibrant-blue); 
   color: black;
 
   font-synthesis: none;

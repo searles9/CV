@@ -1,7 +1,10 @@
+import PageTitle from "../components/Misc/PageTitle";
+
 export default function Blog() {
   return (
     <div>
-      <h1>Blog Page</h1>
+      <PageTitle title="Blog"/>
+      <p>Lorem epsum</p>
     </div>
   );
 }
