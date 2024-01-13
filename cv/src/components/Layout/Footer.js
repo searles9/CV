@@ -2,6 +2,10 @@ import classes from "./Footer.module.css";
 
 export default function Footer () {
     return (
-        <div></div>
+        <footer className={classes.footer}>
+            <div className={classes.footerLinks}>
+                <p>Temp</p>
+            </div>
+        </footer>
     )
 }

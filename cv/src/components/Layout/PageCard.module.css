@@ -15,6 +15,7 @@
     border-radius: 40px;
     box-sizing: border-box;
     padding: 40px 40px 60px;
+    position: relative;
 }
 
 .mainContent {
