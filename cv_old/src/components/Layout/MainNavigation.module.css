@@ -7,12 +7,6 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 991px) {
-  .nav {
-    padding-bottom: 10px;
-  }
-}
-
 .navUl a.active {
   text-decoration: underline;
   color: #222;
@@ -72,4 +66,21 @@
 .navUl a:hover {
   opacity: 1;
   color: #222;
+}
+
+@media only screen and (max-width: 991px) {
+  .nav {
+    padding-bottom: 0px;
+    margin-top: -10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.08);
+    width: 100%;
+  }
+  .navLogo {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.125rem;
+  }
+  .navName {
+    font-size: 1.125rem;
+  }
 }

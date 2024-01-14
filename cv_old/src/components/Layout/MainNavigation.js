@@ -24,7 +24,7 @@ export default function MainNavigation() {
   }, []);
 
   return (
-    <header>
+    <header className={classes.header}>
       <nav className={classes.nav}>
         <div>
           <NavLink to="/" end className={classes.navLink}>
@@ -40,7 +40,7 @@ export default function MainNavigation() {
             </div>
           </NavLink>
         </div>
-        {isMobile && <MenuButton color="#222" hoverColor="#007bff" size={28} />}
+        {isMobile && <MenuButton color="#222" hoverColor="#007bff" size={24} />}
         {!isMobile && (
           <ul className={classes.navUl}>
             <li>

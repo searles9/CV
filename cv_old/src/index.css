@@ -144,6 +144,7 @@
        url('./assets/fonts/Poppins-BlackItalic.ttf') format('truetype');
 }
 
+
 /* ROOT STYLES */
 :root {
   --color-vibrant-blue: #007bff; /* background */
@@ -158,7 +159,8 @@
   --color-gray-100: #fcfcfc;
   --color-white: #fff;
 
-  --card-border-radius: 40px;
+
+
 
   font-family: "Poppins", Helvetica, sans-serif;
   font-size: 16px;

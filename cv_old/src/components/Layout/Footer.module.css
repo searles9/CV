@@ -41,6 +41,9 @@
         margin-left: -20px;
         border-radius: 0%;
     }
+    .footerLinks ul {
+        justify-content: center;
+    }
 }
 
 /* opacity: .6; */

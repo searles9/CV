@@ -1,15 +1,37 @@
-* Adjust margin/padding below the header title on media query 
-* Logo and name text should shrink on media query
-    * Also adjust padding 
-    * Also change the size of the menu icon
-* On menu icon click a nav bar should come out
-    * If esc is clicked it should close
-    * If they click outside of the component it should close
-    * Should I use a react portal? 
-* Add bottom box shadow to the nav menu
-* Validate what browsers support the tabler icons: https://tabler.io/icons
-* Add a note to the read me that says these icons are being used: https://tabler.io/docs/icons/react
-* Add a note to the read me that says what browsers are supported
+TO-DO:
+* Add the nav links and conditionally render the menu button
+* Add modal when the menu button is clicked (make full screen modal component)
+* make the main content component 
+* make the footer component
+* add in the other pages and use the same base layout
 
 
-* For the profile photo: Circle photo, div around it, large drop shadow around that 
+LOW PRIORITY:
+* Find a fix for the icon - should show feedback when clicked on phones (and PC)
+
+
+* Make the header
+    * Nav does not need to be sticky
+    * Make a menu icon in the ui folder
+    * Make a close icon in the ui folder
+    * On media query show an icon
+    * On media query add a box shadow on the lower part
+    * On icon click open a full screen modal, text centered nav, with an X close icon (use react portal?)
+* Make the page content 
+    * Should contain a <main></main>
+* Make the footer
+    * Left side, links
+    * Right side, my name "Donovan Searles"
+    * On media query:
+        * Links on top (left to right with flex wrap)
+        * Name on bottom
+
+
+* All units should be rem
+* Add note to the read me about the tabler icons
+* Add note to the repo about which browsers are supported
+
+
+* Card content: 
+    * Normal left/right padding: 70px
+    * Media query padding: 40px (the border radius value)

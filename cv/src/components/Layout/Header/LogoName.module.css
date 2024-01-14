@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo {
+  width: 2.75rem;
+  height: 2.75rem;
+  font-size: 1.75rem;
+  font-weight: 800;
+  border-radius: 50%;
+  background-color: var(--color-vibrant-blue);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-size: 1.25rem;
+  color: var(--color-gray-800);
+}
+
+.firstName {
+  font-weight: 600;
+}
+
+.lastName {
+  font-weight: 400;
+}
+
+.navLink {
+  text-decoration: none;
+  color: var(--color-gray-800);
+}
+
+@media only screen and (max-width: 991px) {
+  .logo {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.125rem;
+  }
+  .name {
+    font-size: 1.125rem;
+  }
+}
