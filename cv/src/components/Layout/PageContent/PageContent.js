@@ -1,3 +1,9 @@
-export default function PageContent () {}
+import classes from "./PageContent.module.css"
 
-// return <main></main>
+export default function PageContent ({children}) {
+    return (
+        <main className={classes.pageContent}>
+            {children}
+        </main>
+    )
+}

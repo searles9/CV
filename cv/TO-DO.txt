@@ -1,14 +1,19 @@
 TO-DO:
-* Add the nav links and conditionally render the menu button
-* Add modal when the menu button is clicked (make full screen modal component)
-* make the main content component 
 * make the footer component
-* add in the other pages and use the same base layout
+* make the main content component 
+* Add modal when the menu button is clicked (make full screen modal component)
+* Can I add an alt to the icons? I need to somehow
+
+
+* Draft up home page ideas
+    * Desc on the left, pic on right?
+    * Pic on left, description on the right?
+        * Include the facts, personal info and links to my profiles
 
 
 LOW PRIORITY:
 * Find a fix for the icon - should show feedback when clicked on phones (and PC)
-
+* Add a 404 error page
 
 * Make the header
     * Nav does not need to be sticky

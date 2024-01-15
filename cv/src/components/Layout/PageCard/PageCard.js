@@ -1,4 +1,5 @@
 import Header from "../Header/Header";
+import PageContent from "../PageContent/PageContent";
 import classes from "./PageCard.module.css";
 
 export default function PageCard({children}) {
@@ -6,15 +7,7 @@ export default function PageCard({children}) {
         <div className={classes.pageContainer}>
             <div className={classes.pageCard}>
                 <Header />
-                <h1>Placeholder</h1>
-                <h1>Placeholder</h1>
-                <h1>Placeholder</h1>
-                <h1>Placeholder</h1>
-                <h1>Placeholder</h1>
-                <h1>Placeholder</h1>
-                <h1>Placeholder</h1>
-                {/* page content - store children */}
-                {/* footer */}
+                <PageContent>{children}</PageContent>
             </div>
         </div>
     )

@@ -1,4 +1,27 @@
 .navLinksContainer {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.navUl a.active {
+  text-decoration: underline;
+  color: var(--color-gray-800);
+  opacity: 1;
+}
+
+.navUl {
+  list-style: none;
+}
+
+.navUl a {
+  font-size: 0.875rem;
+  padding-right: 2rem;
+  color: var(--color-gray-700);
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.navUl a:hover {
+  opacity: 1;
+  color: var(--color-gray-800);
 }
