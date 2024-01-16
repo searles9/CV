@@ -1,9 +1,7 @@
 TO-DO:
-* make the footer component
-* make the main content component 
-* Add modal when the menu button is clicked (make full screen modal component)
+* Style the modal
 * Can I add an alt to the icons? I need to somehow
-
+* Work on the home page
 
 * Draft up home page ideas
     * Desc on the left, pic on right?
