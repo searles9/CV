@@ -1,5 +1,4 @@
 TO-DO:
-* Style the modal
 * Can I add an alt to the icons? I need to somehow
 * Work on the home page
 

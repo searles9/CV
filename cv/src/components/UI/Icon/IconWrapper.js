@@ -20,8 +20,9 @@ export default function IconWrapper({ icon, color, feedbackColor, size, onClick 
   const iconColor = isHovered ? feedbackColor : color;
 
   const wrapperStyle = {
-    display: "inline-block",
+    display: "flex",
     lineHeight: `${size}px`,
+    alignItems: "center",
   };
 
   return (

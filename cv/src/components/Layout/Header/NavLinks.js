@@ -40,7 +40,7 @@ export default function NavLinks() {
             <IconWrapper
               color="#222"
               feedbackColor="#007bff"
-              size={20}
+              size={24}
               onClick={openModal}
               icon={<MenuIcon />}
             />
@@ -58,6 +58,8 @@ export default function NavLinks() {
               >
                 About Me
               </NavLink>
+            </li>
+            <li>
               <NavLink
                 to="/resume"
                 className={({ isActive }) =>
@@ -67,6 +69,8 @@ export default function NavLinks() {
               >
                 Resume
               </NavLink>
+              </li>
+              <li>
               <NavLink
                 to="/blog"
                 className={({ isActive }) =>
@@ -76,6 +80,8 @@ export default function NavLinks() {
               >
                 Blog
               </NavLink>
+              </li>
+              <li>
               <NavLink
                 to="/contact"
                 className={({ isActive }) =>
@@ -85,7 +91,7 @@ export default function NavLinks() {
               >
                 Contact
               </NavLink>
-            </li>
+              </li>
           </ul>
         )}
       </div>

@@ -3,6 +3,12 @@
   align-items: center;
 }
 
+.navLinksContainer ul {
+  display: flex;
+  align-items: center;
+}
+
+
 .navUl a.active {
   text-decoration: underline;
   color: var(--color-gray-800);

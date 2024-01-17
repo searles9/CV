@@ -23,19 +23,28 @@ export default function NavModal({ isOpen, onClose }) {
           icon={<IconClose />}
         />
       </div>
-  
-      <NavLink to="/" onClick={handleCloseModal}>
-        About Me
-      </NavLink>
-      <NavLink to="/resume" onClick={handleCloseModal}>
-        Resume
-      </NavLink>
-      <NavLink to="/blog" onClick={handleCloseModal}>
-        Blog
-      </NavLink>
-      <NavLink to="/contact" onClick={handleCloseModal}>
-        Contact
-      </NavLink>
+      <ul className={classes.navLinks}>
+        <l1>
+          <NavLink to="/" onClick={handleCloseModal}>
+            About Me
+          </NavLink>
+        </l1>
+        <l1>
+          <NavLink to="/resume" onClick={handleCloseModal}>
+            Resume
+          </NavLink>
+        </l1>
+        <l1>
+          <NavLink to="/blog" onClick={handleCloseModal}>
+            Blog
+          </NavLink>
+        </l1>
+        <l1>
+          <NavLink to="/contact" onClick={handleCloseModal}>
+            Contact
+          </NavLink>
+        </l1>
+      </ul>
     </div>,
     document.getElementById("modal")
   );

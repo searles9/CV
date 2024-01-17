@@ -32,7 +32,7 @@ export default function Footer() {
         </ul>
       </div>
       <div className={classes.footerText}>
-        <Link to="/">Donovan Searles</Link>
+        <Link to="/">Donovan Searles CV</Link>
       </div>
     </footer>
   );
