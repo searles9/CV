@@ -1,7 +1,7 @@
 export const resume = {
   basics: {
     name: "Donovan Searles",
-    label: "Software Engineer",
+    label: "Full Stack Cloud Developer",
     email: "donovansearles@gmail.com",
     phone: {
       "country-code": "+1",

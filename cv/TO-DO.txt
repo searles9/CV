@@ -1,32 +1,15 @@
 TO-DO:
-* Can I add an alt to the icons? I need to somehow
-* Work on the home page
+* Make a component for the titles (may need to use ::before and ::after to make the difference in color in the border)
+* Add facts section to the home page (should the resume file contain functions that run for the facts?)
+* Include links on the home page: Download CV, profile links
+* Make a component for the page title (ex: Resume, blog)
 
-* Draft up home page ideas
-    * Desc on the left, pic on right?
-    * Pic on left, description on the right?
-        * Include the facts, personal info and links to my profiles
 
 
 LOW PRIORITY:
 * Find a fix for the icon - should show feedback when clicked on phones (and PC)
 * Add a 404 error page
 
-* Make the header
-    * Nav does not need to be sticky
-    * Make a menu icon in the ui folder
-    * Make a close icon in the ui folder
-    * On media query show an icon
-    * On media query add a box shadow on the lower part
-    * On icon click open a full screen modal, text centered nav, with an X close icon (use react portal?)
-* Make the page content 
-    * Should contain a <main></main>
-* Make the footer
-    * Left side, links
-    * Right side, my name "Donovan Searles"
-    * On media query:
-        * Links on top (left to right with flex wrap)
-        * Name on bottom
 
 
 * All units should be rem
@@ -34,6 +17,10 @@ LOW PRIORITY:
 * Add note to the repo about which browsers are supported
 
 
-* Card content: 
-    * Normal left/right padding: 70px
-    * Media query padding: 40px (the border radius value)
+# FACTS:
+* x years old
+* x years working in tech
+
+MAYBE:
+* add margin top to the footer (3rem?)
+* replace the profile photo with 500x500
