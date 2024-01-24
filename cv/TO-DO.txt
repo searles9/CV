@@ -21,5 +21,4 @@ LOW PRIORITY:
 * x years working in tech
 
 MAYBE:
-* add margin top to the footer (3rem?)
 * replace the profile photo with 500x500
