@@ -1,6 +1,6 @@
 TO-DO:
 * Make a component for the titles (may need to use ::before and ::after to make the difference in color in the border)
-* Add facts section to the home page (should the resume file contain functions that run for the facts?)
+* Make functions for the facts
 * Include links on the home page: Download CV, profile links
 * Make a component for the page title (ex: Resume, blog)
 

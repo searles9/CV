@@ -24,26 +24,26 @@ export default function NavModal({ isOpen, onClose }) {
         />
       </div>
       <ul className={classes.navLinks}>
-        <l1>
+        <li>
           <NavLink to="/" onClick={handleCloseModal}>
             About Me
           </NavLink>
-        </l1>
-        <l1>
+        </li>
+        <li>
           <NavLink to="/resume" onClick={handleCloseModal}>
             Resume
           </NavLink>
-        </l1>
-        <l1>
+        </li>
+        <li>
           <NavLink to="/blog" onClick={handleCloseModal}>
             Blog
           </NavLink>
-        </l1>
-        <l1>
+        </li>
+        <li>
           <NavLink to="/contact" onClick={handleCloseModal}>
             Contact
           </NavLink>
-        </l1>
+        </li>
       </ul>
     </div>,
     document.getElementById("modal")

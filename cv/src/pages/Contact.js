@@ -1,16 +1,12 @@
+import PageTitle from "../components/PageTitle/PageTitle";
+
 export default function Contact() {
   return (
     <div>
+      <PageTitle title="Contact"/>
       {/* map */}
       {/* personal details */}
       {/* contact form */}
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
     </div>
   );
 }

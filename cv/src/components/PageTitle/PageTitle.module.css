@@ -1,0 +1,34 @@
+/* revisit: 
+- use rem units 
+- dynamically calculate the margin and padding
+*/
+.pageTitle {
+  background-color: var( --color-gray-100);
+  border-top-color: var(--color-gray-30);
+  border-bottom-color: var(--color-gray-30);
+  border-bottom: 2px solid var(--color-gray-200);
+  border-top: 2px solid var(--color-gray-200);
+  margin-right: -70px;
+  margin-left: -70px;
+  padding: 50px 70px;
+  margin-bottom: 65px;
+}
+
+.pageTitle h1 {
+  color: var(--color-gray-700);
+  font-size: 44px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 991px) {
+  .pageTitle {
+    padding: 30px 40px;
+    font-size: 35.2px;
+    margin-right: -40px;
+    margin-left: -40px;
+    margin-bottom: 35px;
+  }
+  .pageTitle h1 {
+    font-size: 35.2px;
+  }
+}

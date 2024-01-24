@@ -1,43 +1,14 @@
+import PageTitle from "../components/PageTitle/PageTitle";
+import SectionTitle from "../components/SectionTitle/SectionTitle";
+
 export default function Resume() {
   return (
     <div>
-      {/* title */}
-      {/* skills */}
-      {/* experience */}
-      {/* certs */}
-      {/* education */}
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
-      <p>Lorem epsum</p>
-      <h1>Lorem epsum</h1>
+      <PageTitle title="Resume"/>
+      <SectionTitle>Skills</SectionTitle>
+      <SectionTitle>Experience</SectionTitle>
+      <SectionTitle>Certifications</SectionTitle>
+      <SectionTitle>Education</SectionTitle>    
     </div>
   );
 }

@@ -4,16 +4,6 @@ import { resume } from "../../resume/resume";
 
 export default function AboutMeHeader() {
   return (
-    // <div className={classes["flex-container"]}>
-    //   <div className={classes["image-container"]}>
-    //     <img className={classes["profile-image"]} src={profileImage} alt="Donovan Searles" />
-    //   </div>
-    //   <div className={classes["text-elements"]}>
-    //     <p>Full Stack Cloud Developer</p>
-    //     <p>Donovan Searles</p>
-    //     <p>Summary text.... Summary text....Summary text....Summary text....Summary text....Summary text....Summary text....Summary text....Summary text....</p>
-    //   </div>
-    // </div>
     <div className={classes.wrapper}>
       <div className={classes.container}>
       <div>
