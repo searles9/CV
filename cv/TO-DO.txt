@@ -1,14 +1,13 @@
 TO-DO:
-* Make a component for the titles (may need to use ::before and ::after to make the difference in color in the border)
+* Work on the skills section
 * Make functions for the facts
 * Include links on the home page: Download CV, profile links
-* Make a component for the page title (ex: Resume, blog)
-
 
 
 LOW PRIORITY:
 * Find a fix for the icon - should show feedback when clicked on phones (and PC)
 * Add a 404 error page
+* Add a loading page for the router
 
 
 
