@@ -10,8 +10,8 @@ export const resume = {
       "local-number": "510-8996",
     },
     location: {
-      city: "xxx",
-      state: "xxx",
+      city: "Atlanta",
+      state: "GA",
       country: "United States",
       "country-code": "US",
     },
@@ -32,7 +32,75 @@ export const resume = {
       link: "https://blog.dsearles.com/",
     },
   ],
-  skills: [],
+  skills: [
+    {
+      name: "AWS"
+    },
+    {
+      name: "Azure"
+    },
+    {
+      name: "HTML"
+    },
+    {
+      name: "CSS"
+    },
+    {
+      name: "JavaScript"
+    },
+    {
+      name: "Node.js"
+    },
+    {
+      name: "Python"
+    },
+    {
+      name: "React.js"
+    },
+    {
+      name: "React Native"
+    },
+    {
+      name: "Redux & Redux Toolkit"
+    },
+    {
+      name: "React Router"
+    },
+    {
+      name: "Terraform"
+    },
+    {
+      name: "Bash"
+    },
+    {
+      name: "Powershell"
+    },
+
+  ],
+  skills_1: [
+    {
+      skillGroupName: "Cloud",
+      skills: [
+        {
+          name: "AWS"
+        },
+        {
+          name: "Azure"
+        },
+      ]
+    },
+    {
+      skillGroupName: "Programming Languages",
+      skills: [
+        {
+          name: "AWS"
+        },
+        {
+          name: "Azure"
+        },
+      ]
+    }
+  ],
   work: [],
   education: [],
   certificates: []

@@ -22,3 +22,18 @@ LOW PRIORITY:
 
 MAYBE:
 * replace the profile photo with 500x500
+
+
+FOR MVP:
+* Remove the blog page and just link directly to the external blog
+
+TO-DO AFTER MVP:
+* Fix the skills section
+    * Should have skill groups
+        * Skill group should have a blue border and darker text
+            * when the skill group is clicked it should show the sub skills
+            * the skill group should contain an icon that shows if the sub skills are showing
+        * The skill for that group should then display in that line
+            * for each skill when its clicked it should show a modal. The modal will show what each skill is and a link to learn about it.
+* Add a download CV option
+* Show feedback and an animation when you hover over the facts on the homepage

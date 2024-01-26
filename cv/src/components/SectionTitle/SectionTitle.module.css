@@ -1,6 +1,13 @@
 .titleContainer {
   width: 100%;
+}
+
+.bottomMargin {
   margin-bottom: 1.875rem;
+}
+
+.topMargin {
+  margin-top: 1.875rem;
 }
 
 .titleBorder {

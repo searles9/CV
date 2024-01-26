@@ -23,3 +23,11 @@
     font-size: 3rem;
     font-weight: 400;
 }
+
+/* @media only screen and (max-width: 991px) {} */
+
+@media only screen and (max-width: 730px) {
+    .card {
+        width: 100%;
+    }
+}
