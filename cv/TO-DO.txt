@@ -37,3 +37,6 @@ TO-DO AFTER MVP:
             * for each skill when its clicked it should show a modal. The modal will show what each skill is and a link to learn about it.
 * Add a download CV option
 * Show feedback and an animation when you hover over the facts on the homepage
+
+
+I did X, and here is how it helped

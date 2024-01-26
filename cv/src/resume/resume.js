@@ -77,31 +77,62 @@ export const resume = {
     },
 
   ],
-  skills_1: [
+  // what happens if I have multible jobs that I am working at the same time currently ? 
+  work: [
     {
-      skillGroupName: "Cloud",
-      skills: [
-        {
-          name: "AWS"
-        },
-        {
-          name: "Azure"
-        },
+      "relevantExperience": true,
+      "company": {
+        "name": "Cox Automotive",
+        "url": "https://www.coxautoinc.com/"
+      },
+      "title": "Software Engineer I",
+      "employmentType": "Full-time",
+      "location": {
+        "type": "Remote",
+        "city": "Atlanta",
+        "region": "Georgia",
+        "country": "United States"
+      },
+      "tenure": {
+        "isCurrentPosition": true,
+        "startMonth": "03",
+        "startYear": "2022",
+      },
+      "summary": "Working on a small team of software engineers to deploy an Azure Landing zone",
+      "highlights": [
+        "Automated the deployment of Azure subscriptions within the org",
+        "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
+        "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure"
       ]
     },
     {
-      skillGroupName: "Programming Languages",
-      skills: [
-        {
-          name: "AWS"
-        },
-        {
-          name: "Azure"
-        },
+      "relevantExperience": true,
+      "company": {
+        "name": "Cox Automotive",
+        "url": "https://www.coxautoinc.com/"
+      },
+      "title": "AWS Support Engineer",
+      "employmentType": "Contract",
+      "location": {
+        "type": "Remote",
+        "city": "Atlanta",
+        "region": "Georgia",
+        "country": "United States"
+      },
+      "tenure": {
+        "startMonth": "03",
+        "startYear": "2022",
+        "endMonth": "03",
+        "endYear": "2022"
+      },
+      "summary": "Completed AWS related support tickets via ServiceNow to assist the development teams using AWS",
+      "highlights": [
+        "Used Terraform (infrastructure as code) to deploy AWS resources",
+        "Ticket examples: create/rotate/delete iam access keys, create/delete aws accounts, setup vpc peering, deploy vpcs, deploy client vpns",
+        "Created tooling and scripts to automate repetative tasks"
       ]
     }
   ],
-  work: [],
   education: [],
   certificates: []
 };
