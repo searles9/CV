@@ -4,37 +4,38 @@ import WorkIcon from "./WorkIcon";
 export default function ExperienceSlot({ experienceSlot }) {
   return (
     <div className={classes.container}>
-      <div>
+      <div className={classes.icon}>
         <WorkIcon />
       </div>
       <div className={classes.detailsContainer}>
         <div>
-          <h4 className={classes.title}>Cox Automotive</h4>
-          <p>2 yrs 8 mos</p>
-          <p>Atlanta, Georgia, US</p>
+          <h3 className={classes.title}>{experienceSlot.company.name}</h3>{" "}
+          <p>2 yrs 8 mos</p> {/* time at company - calculate*/}
+          <p>
+            {`${experienceSlot.company.location.city}`},{" "}
+            {`${experienceSlot.company.location.region}`},{" "}
+            {`${experienceSlot.company.location.countryCode}`}
+          </p>
         </div>
-        <div>
-          <div>
-            <h4 className={classes.title}>Software Engineer I</h4>
-            <p>Mar 2022 - Present * 8mos</p>
-            <p>Full-time * Remote</p>
+
+        {
+          experienceSlot.positions.map((position) => (
+            <div 
+            key={`${position.startMonth}-${position.startYear}-${position.title}`}
+            className={classes.position}>
+            <h4 className={classes.title}>{position.title}</h4>{" "}
+            <div>
+              <p>Mar 2022 - Present * 8mos</p>
+              <p>{position.employmentType} * {position.locationType}</p>
+            </div>
+            <div>{/* summary and highlights */}</div>
+            <div>
+              <button>see details</button> {/* see details * see less */}
+            </div>
           </div>
-          <div>
-            <button>see details</button>
-          </div>
-        </div>
-        <div>
-          <div>
-            <h4 className={classes.title}>AWS Support Engineer</h4>
-            <p>Mar 2022 - Dec 2022 * 8mos</p>
-            <p>Contract * Remote</p>
-          </div>
-          <div>
-            <button>see details</button>
-          </div>
-        </div>
+          ))
+        }
       </div>
-      {/* add position details - map */}
     </div>
   );
 }

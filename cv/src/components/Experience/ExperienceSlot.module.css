@@ -1,18 +1,25 @@
 .container {
     display: flex;
     flex-direction: row;
-    color: #666
+    color: var(--color-gray-600);
 }
 
 .detailsContainer {
-    padding: 0 20px
+    padding: 0 1rem;
+}
+
+.position {
+    padding-left: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-left: 2px solid var(--color-gray-400);
 }
 
 .title {
-    color: #333333;
+    color: var(--color-gray-700);
 }
 
-p, h4, h5 {
+.container p, .container h4, .container h5, .container h3 {
     margin: 0;
 }
 

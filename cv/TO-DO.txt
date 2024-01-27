@@ -1,9 +1,11 @@
 TO-DO:
-* Fix the js object for the work stuff
-* Continue to work on the experience slot and add styling (also add borders - same color as the title border)
-* Add media query to the icon to make it smaller at the smaller size 
+* Make the see more button (as its own component)
+* make the span node (*) and add it in (See how linkedin does it)
+* Fix styling for position
 
 
+
+* review the uuid usage in other components
 * Work on the skills section
 * Make functions for the facts
 * Include links on the home page: Download CV, profile links

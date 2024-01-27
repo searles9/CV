@@ -34,117 +34,100 @@ export const resume = {
   ],
   skills: [
     {
-      name: "AWS"
+      name: "AWS",
     },
     {
-      name: "Azure"
+      name: "Azure",
     },
     {
-      name: "HTML"
+      name: "HTML",
     },
     {
-      name: "CSS"
+      name: "CSS",
     },
     {
-      name: "JavaScript"
+      name: "JavaScript",
     },
     {
-      name: "Node.js"
+      name: "Node.js",
     },
     {
-      name: "Python"
+      name: "Python",
     },
     {
-      name: "React.js"
+      name: "React.js",
     },
     {
-      name: "React Native"
+      name: "React Native",
     },
     {
-      name: "Redux & Redux Toolkit"
+      name: "Redux & Redux Toolkit",
     },
     {
-      name: "React Router"
+      name: "React Router",
     },
     {
-      name: "Terraform"
+      name: "Terraform",
     },
     {
-      name: "Bash"
+      name: "Bash",
     },
     {
-      name: "Powershell"
+      name: "Powershell",
     },
-
   ],
   work: [
     {
-      "relevantExperience": true,
-      "company": {
-        "name": "Cox Automotive",
-        "url": "https://www.coxautoinc.com/"
+      company: {
+        name: "Cox Automotive",
+        url: "https://www.coxautoinc.com/",
+        location: {
+          city: "Atlanta",
+          region: "Georgia",
+          countryCode: "US",
+        },
       },
-      "title": "Software Engineer I",
-      "employmentType": "Full-time",
-      "location": {
-        "type": "Remote",
-        "city": "Atlanta",
-        "region": "Georgia",
-        "country": "United States"
-      },
-      "tenure": {
-        "isCurrentPosition": true,
-        "startMonth": "03",
-        "startYear": "2022",
-      },
-      "summary": "Working on a small team of software engineers to deploy an Azure Landing zone",
-      "highlights": [
-        "Automated the deployment of Azure subscriptions within the org",
-        "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
-        "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure"
-      ]
+      positions: [
+        {
+          title: "Software Engineer I",
+          locationType: "Remote",
+          employmentType: "Full-time",
+          tenure: {
+            isCurrentPosition: true,
+            startMonth: "03",
+            startYear: "2022",
+          },
+          summary:
+            "Working on a small team of software engineers to deploy an Azure Landing zone",
+          highlights: [
+            "Automated the deployment of Azure subscriptions within the org",
+            "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
+            "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
+          ],
+        },
+        {
+          title: "AWS Support Engineer",
+          locationType: "Remote",
+          employmentType: "Full-time",
+          tenure: {
+            startMonth: "03",
+            startYear: "2022",
+            endMonth: "03",
+            endYear: "2022",
+          },
+          summary:
+            "Working on a small team of software engineers to deploy an Azure Landing zone",
+          highlights: [
+            "Automated the deployment of Azure subscriptions within the org",
+            "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
+            "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
+          ],
+        },
+      ],
     },
-    {
-      "relevantExperience": true,
-      "company": {
-        "name": "Cox Automotive",
-        "url": "https://www.coxautoinc.com/"
-      },
-      "title": "AWS Support Engineer",
-      "employmentType": "Contract",
-      "location": {
-        "type": "Remote",
-        "city": "Atlanta",
-        "region": "Georgia",
-        "country": "United States"
-      },
-      "tenure": {
-        "startMonth": "03",
-        "startYear": "2022",
-        "endMonth": "03",
-        "endYear": "2022"
-      },
-      "summary": "Completed AWS related support tickets via ServiceNow to assist the development teams using AWS",
-      "highlights": [
-        "Used Terraform (infrastructure as code) to deploy AWS resources",
-        "Ticket examples: create/rotate/delete iam access keys, create/delete aws accounts, setup vpc peering, deploy vpcs, deploy client vpns",
-        "Created tooling and scripts to automate repetative tasks"
-      ]
-    }
-  ],
-  work_2: [
-    {
-      "company": {
-        "name": "Cox Automotive",
-        "url": "https://www.coxautoinc.com/"
-      },
-      "positions": [
-
-      ]
-    }
   ],
   education: [],
-  certificates: []
+  certificates: [],
 };
 
 // import { resume } from './resume';
