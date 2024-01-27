@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    color: #666
+}
+
+.detailsContainer {
+    padding: 0 20px
+}
+
+.title {
+    color: #333333;
+}
+
+p, h4, h5 {
+    margin: 0;
+}
+
+/*
+14px for the title details
+12px for the text
+
+
+color: #666;
+  opacity: .7;
+
+
+Title: 16px | 600
+Sub title: 14px | 400
+Text: 12px | opacity: .7 | 400
+
+*/

@@ -18,7 +18,6 @@ export default function AboutMeHeader() {
           <h1 className={classes.nameText}>{resume.basics.name}</h1>
           <p className={classes.summaryText}>{resume.basics.summary}</p>
           {/* Button row: Download CV, Contact, maybe social icons */}
-      
         </div>
       </div>
     </div>

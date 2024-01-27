@@ -77,7 +77,6 @@ export const resume = {
     },
 
   ],
-  // what happens if I have multible jobs that I am working at the same time currently ? 
   work: [
     {
       "relevantExperience": true,
@@ -130,6 +129,17 @@ export const resume = {
         "Used Terraform (infrastructure as code) to deploy AWS resources",
         "Ticket examples: create/rotate/delete iam access keys, create/delete aws accounts, setup vpc peering, deploy vpcs, deploy client vpns",
         "Created tooling and scripts to automate repetative tasks"
+      ]
+    }
+  ],
+  work_2: [
+    {
+      "company": {
+        "name": "Cox Automotive",
+        "url": "https://www.coxautoinc.com/"
+      },
+      "positions": [
+
       ]
     }
   ],
