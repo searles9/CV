@@ -1,5 +1,5 @@
 TO-DO:
-* Make the see more button (as its own component)
+* Make the see more button (as its own component) (32 height / 1.5rem?)
 * make the span node (*) and add it in (See how linkedin does it)
 * Fix styling for position
 
