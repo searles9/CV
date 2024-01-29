@@ -1,4 +1,5 @@
 import classes from "./ExperienceSlot.module.css";
+import Position from "./Position";
 import WorkIcon from "./WorkIcon";
 
 export default function ExperienceSlot({ experienceSlot }) {
@@ -10,7 +11,7 @@ export default function ExperienceSlot({ experienceSlot }) {
       <div className={classes.detailsContainer}>
         <div>
           <h3 className={classes.title}>{experienceSlot.company.name}</h3>{" "}
-          <p>2 yrs 8 mos</p> {/* time at company - calculate*/}
+          <p>2 yrs 8 mos</p>
           <p>
             {`${experienceSlot.company.location.city}`},{" "}
             {`${experienceSlot.company.location.region}`},{" "}
@@ -18,23 +19,12 @@ export default function ExperienceSlot({ experienceSlot }) {
           </p>
         </div>
 
-        {
-          experienceSlot.positions.map((position) => (
-            <div 
+        {experienceSlot.positions.map((position) => (
+          <Position
             key={`${position.startMonth}-${position.startYear}-${position.title}`}
-            className={classes.position}>
-            <h4 className={classes.title}>{position.title}</h4>{" "}
-            <div>
-              <p>Mar 2022 - Present * 8mos</p>
-              <p>{position.employmentType} * {position.locationType}</p>
-            </div>
-            <div>{/* summary and highlights */}</div>
-            <div>
-              <button>see details</button> {/* see details * see less */}
-            </div>
-          </div>
-          ))
-        }
+            position={position}
+          />
+        ))}
       </div>
     </div>
   );

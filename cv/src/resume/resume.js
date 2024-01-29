@@ -78,6 +78,7 @@ export const resume = {
   ],
   work: [
     {
+      isRelevantExperience: true,
       company: {
         name: "Cox Automotive",
         url: "https://www.coxautoinc.com/",
@@ -125,9 +126,235 @@ export const resume = {
         },
       ],
     },
+    {
+      isRelevantExperience: false,
+      company: {
+        name: "Coretelligent",
+        url: "https://www.coxautoinc.com/",
+        location: {
+          city: "Atlanta",
+          region: "Georgia",
+          countryCode: "US",
+        },
+      },
+      positions: [
+        {
+          title: "Non Relevant",
+          locationType: "Remote",
+          employmentType: "Full-time",
+          tenure: {
+            startMonth: "03",
+            startYear: "2022",
+            endMonth: "03",
+            endYear: "2022",
+          },
+          summary:
+            "Working on a small team of software engineers to deploy an Azure Landing zone",
+          highlights: [
+            "Automated the deployment of Azure subscriptions within the org",
+            "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
+            "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
+          ],
+        },
+        {
+          title: "Non Relevant",
+          locationType: "Remote",
+          employmentType: "Full-time",
+          tenure: {
+            startMonth: "03",
+            startYear: "2022",
+            endMonth: "03",
+            endYear: "2022",
+          },
+          summary:
+            "Working on a small team of software engineers to deploy an Azure Landing zone",
+          highlights: [
+            "Automated the deployment of Azure subscriptions within the org",
+            "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
+            "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
+          ],
+        },
+      ],
+    },
+    {
+      isRelevantExperience: false,
+      company: {
+        name: "WellStar Health Systems",
+        url: "https://www.coxautoinc.com/",
+        location: {
+          city: "Atlanta",
+          region: "Georgia",
+          countryCode: "US",
+        },
+      },
+      positions: [
+        {
+          title: "Non Relevant",
+          locationType: "Remote",
+          employmentType: "Full-time",
+          tenure: {
+            startMonth: "03",
+            startYear: "2022",
+            endMonth: "03",
+            endYear: "2022",
+          },
+          summary:
+            "Working on a small team of software engineers to deploy an Azure Landing zone",
+          highlights: [
+            "Automated the deployment of Azure subscriptions within the org",
+            "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
+            "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
+          ],
+        },
+      ],
+    },
+    {
+      isRelevantExperience: false,
+      company: {
+        name: "Athens Micro",
+        url: "https://www.coxautoinc.com/",
+        location: {
+          city: "Atlanta",
+          region: "Georgia",
+          countryCode: "US",
+        },
+      },
+      positions: [
+        {
+          title: "Non Relevant",
+          locationType: "Remote",
+          employmentType: "Full-time",
+          tenure: {
+            startMonth: "03",
+            startYear: "2022",
+            endMonth: "03",
+            endYear: "2022",
+          },
+          summary:
+            "Working on a small team of software engineers to deploy an Azure Landing zone",
+          highlights: [
+            "Automated the deployment of Azure subscriptions within the org",
+            "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
+            "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
+          ],
+        },
+        {
+          title: "Non Relevant",
+          locationType: "Remote",
+          employmentType: "Full-time",
+          tenure: {
+            startMonth: "03",
+            startYear: "2022",
+            endMonth: "03",
+            endYear: "2022",
+          },
+          summary:
+            "Working on a small team of software engineers to deploy an Azure Landing zone",
+          highlights: [
+            "Automated the deployment of Azure subscriptions within the org",
+            "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
+            "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
+          ],
+        },
+      ],
+    },
+    {
+      isRelevantExperience: false,
+      company: {
+        name: "Nisshinbo Automotive MFG Inc",
+        url: "https://www.coxautoinc.com/",
+        location: {
+          city: "Atlanta",
+          region: "Georgia",
+          countryCode: "US",
+        },
+      },
+      positions: [
+        {
+          title: "Non Relevant",
+          locationType: "Remote",
+          employmentType: "Full-time",
+          tenure: {
+            startMonth: "03",
+            startYear: "2022",
+            endMonth: "03",
+            endYear: "2022",
+          },
+          summary:
+            "Working on a small team of software engineers to deploy an Azure Landing zone",
+          highlights: [
+            "Automated the deployment of Azure subscriptions within the org",
+            "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
+            "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
+          ],
+        }
+      ],
+    },
+    {
+      isRelevantExperience: false,
+      company: {
+        name: "Clique Here",
+        url: "https://www.coxautoinc.com/",
+        location: {
+          city: "Atlanta",
+          region: "Georgia",
+          countryCode: "US",
+        },
+      },
+      positions: [
+        {
+          title: "Non Relevant",
+          locationType: "Remote",
+          employmentType: "Full-time",
+          tenure: {
+            startMonth: "03",
+            startYear: "2022",
+            endMonth: "03",
+            endYear: "2022",
+          },
+          summary:
+            "Working on a small team of software engineers to deploy an Azure Landing zone",
+          highlights: [
+            "Automated the deployment of Azure subscriptions within the org",
+            "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
+            "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
+          ],
+        }
+      ],
+    },
+    {
+      isRelevantExperience: false,
+      company: {
+        name: "Rockdale Medical Center",
+        url: "https://www.coxautoinc.com/",
+        location: {
+          city: "Atlanta",
+          region: "Georgia",
+          countryCode: "US",
+        },
+      },
+      positions: [
+        {
+          title: "Non Relevant",
+          locationType: "Remote",
+          employmentType: "Full-time",
+          tenure: {
+            startMonth: "03",
+            startYear: "2022",
+            endMonth: "03",
+            endYear: "2022",
+          },
+          summary:
+            "Working on a small team of software engineers to deploy an Azure Landing zone",
+          highlights: [
+            "Automated the deployment of Azure subscriptions within the org",
+            "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
+            "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
+          ],
+        }
+      ],
+    },
   ],
   education: [],
   certificates: [],
 };
-
-// import { resume } from './resume';

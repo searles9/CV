@@ -1,0 +1,30 @@
+.button {
+  display: inline-flex;
+  gap: 0.5rem;
+  color: var(--color-gray-600);
+  border-radius: 2rem;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+
+.border {
+  box-shadow: 0 10px 10px -8px var(--color-gray-400);
+  border: 2px solid var(--color-gray-400);
+}
+
+.button:hover {
+  background-color: var(--color-gray-400);
+}
+
+.button:active {
+  border-color: var(--color-vibrant-blue);
+}
+
+.iconRotate {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.button p {
+  margin: 0;
+}

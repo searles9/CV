@@ -1,0 +1,29 @@
+.title {
+  color: var(--color-gray-700);
+}
+
+.container p,
+.container h4,
+.container h5,
+.container h3 {
+  margin: 0;
+}
+
+.position {
+  padding-left: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-left: 2px solid var(--color-gray-400);
+}
+
+.positionDetails {
+    margin-top: .875rem;
+}
+
+.highlights {
+    margin: 0 0 0 0;
+}
+
+.buttonContainer {
+    margin-top: .3rem;
+}

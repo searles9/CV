@@ -1,0 +1,7 @@
+.experienceContainer > :not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.experienceContainer > :first-child {
+  margin-top: 2rem;
+}
