@@ -1,5 +1,4 @@
 TO-DO:
-* Write the code that finds the tenure for all positions at a company ( in the exerpience slot component)
 * Change the position details section to have a font size of 14px (using rem)
 * Add the logic that calculates the start and end date
 * Update the sills section to be skill groups (skill group name has blue border)
@@ -10,6 +9,7 @@ TO-DO:
 * Work on the skills section
 * Make functions for the facts
 * Include links on the home page: Download CV, profile links
+* Update the resume to have all the real details
 
 
 LOW PRIORITY:

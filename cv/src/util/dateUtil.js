@@ -90,3 +90,38 @@ export function getShortMonthName(month) {
     return "Invalid month";
   }
 }
+
+// expects a list of positions
+export function calculateTotalTenure(positions) {
+  const extractedTenure = positions.map((position) => {
+    const isCurrent =
+      position.tenure.hasOwnProperty("isCurrentPosition") &&
+      position.tenure.isCurrentPosition === true;
+
+    let endYear;
+    let endMonth;
+
+    if (isCurrent) {
+      const { year, month } = getCurrentDate();
+      endYear = year;
+      endMonth = month;
+    } else {
+      endYear = position.tenure.endYear;
+      endMonth = position.tenure.endMonth;
+    }
+
+    return calculateDateDifference(
+      {
+        year: position.tenure.startYear,
+        month: position.tenure.startMonth,
+      },
+      {
+        year: endYear,
+        month: endMonth,
+      }
+    );
+  });
+
+  const totalTenure = addDateValues(...extractedTenure);
+  return formatYearsMonths(totalTenure.years, totalTenure.months);
+}

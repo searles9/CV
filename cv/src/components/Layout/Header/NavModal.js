@@ -34,12 +34,12 @@ export default function NavModal({ isOpen, onClose }) {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/resume" target="_blank" onClick={handleCloseModal}>
+          <NavLink to="/resume" onClick={handleCloseModal}>
             Resume
           </NavLink>
         </li>
         <li>
-          <NavLink to={blogUrl} onClick={handleCloseModal}>
+          <NavLink to={blogUrl} target="_blank" onClick={handleCloseModal}>
             Blog
           </NavLink>
         </li>

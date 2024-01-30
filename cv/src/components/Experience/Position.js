@@ -2,12 +2,7 @@ import { useState } from "react";
 import classes from "./Position.module.css";
 import { v4 as uuidv4 } from "uuid";
 import SeeMoreButton from "../UI/Button/SeeMoreButton";
-import {
-  getCurrentDate,
-  getShortMonthName,
-  calculateDateDifference,
-  formatYearsMonths,
-} from "../../util/dateUtil";
+import { getShortMonthName, calculateTotalTenure } from "../../util/dateUtil";
 
 export default function Position({ position }) {
   const isCurrent =
@@ -16,23 +11,7 @@ export default function Position({ position }) {
 
   const [isExpanded, setIsExpanded] = useState(isCurrent ? true : false);
 
-  let endDate;
-  const startDate = {
-    year: position.tenure.startYear,
-    month: position.tenure.startMonth,
-  };
-
-  if (isCurrent) {
-    endDate = getCurrentDate();
-  } else {
-    endDate = {
-      year: position.tenure.endYear,
-      month: position.tenure.endMonth,
-    };
-  }
-
-  const dateDifference = calculateDateDifference(startDate, endDate);
-  const tenure = formatYearsMonths(dateDifference.years, dateDifference.months);
+  const tenure = calculateTotalTenure([position]);
 
   function toggleExpanded() {
     setIsExpanded(!isExpanded);
@@ -43,12 +22,15 @@ export default function Position({ position }) {
   return (
     <div className={classes.position}>
       <h4 className={classes.title}>{position.title}</h4>
-      <div>
+      <div className={classes.positionSubTitles}>
         <p>
-          {getShortMonthName(startDate.month)} {startDate.year} -{" "}
+          {getShortMonthName(position.tenure.startMonth)}{" "}
+          {position.tenure.startYear} -{" "}
           {isCurrent
             ? "Present"
-            : `${getShortMonthName(endDate.month)} ${endDate.year}`}{" "}
+            : `${getShortMonthName(position.tenure.endMonth)} ${
+                position.tenure.endYear
+              }`}{" "}
           {spanNode} {tenure}
         </p>
         <p>

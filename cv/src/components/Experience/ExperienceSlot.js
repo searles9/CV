@@ -1,8 +1,14 @@
 import classes from "./ExperienceSlot.module.css";
 import Position from "./Position";
 import WorkIcon from "./WorkIcon";
+import { v4 as uuidv4 } from "uuid";
+import {
+  calculateTotalTenure
+} from "../../util/dateUtil";
 
 export default function ExperienceSlot({ experienceSlot }) {
+  const tenure = calculateTotalTenure(experienceSlot.positions)
+
   return (
     <div className={classes.container}>
       <div className={classes.icon}>
@@ -11,7 +17,7 @@ export default function ExperienceSlot({ experienceSlot }) {
       <div className={classes.detailsContainer}>
         <div>
           <h3 className={classes.title}>{experienceSlot.company.name}</h3>{" "}
-          <p>2 yrs 8 mos</p>
+          <p>{tenure}</p>
           <p>
             {`${experienceSlot.company.location.city}`},{" "}
             {`${experienceSlot.company.location.region}`},{" "}
@@ -21,7 +27,7 @@ export default function ExperienceSlot({ experienceSlot }) {
 
         {experienceSlot.positions.map((position) => (
           <Position
-            key={`${position.startMonth}-${position.startYear}-${position.title}`}
+            key={uuidv4()}
             position={position}
           />
         ))}

@@ -16,8 +16,13 @@
   border-left: 2px solid var(--color-gray-400);
 }
 
+/* .positionSubTitles {
+  font-size: .875rem;
+} */
+
 .positionDetails {
     margin-top: .875rem;
+    /* font-size: .875rem; */
 }
 
 .highlights {
