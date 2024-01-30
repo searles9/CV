@@ -1,11 +1,11 @@
 TO-DO:
-* Expand the current position by default
+* Write the code that finds the tenure for all positions at a company ( in the exerpience slot component)
 * Change the position details section to have a font size of 14px (using rem)
 * Add the logic that calculates the start and end date
 * Update the sills section to be skill groups (skill group name has blue border)
 
 
-
+* Move the psotion sub details to its own componenet (to do the calculation)
 * review the uuid usage in other components
 * Work on the skills section
 * Make functions for the facts
@@ -46,6 +46,7 @@ TO-DO AFTER MVP:
 * Add a download CV option
 * Show feedback and an animation when you hover over the facts on the homepage
 * Use framer motion to animate layout changes like "see more" and "see less"
+* Add tests for all the date utilities
 
 
 I did X, and here is how it helped

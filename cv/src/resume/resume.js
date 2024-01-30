@@ -18,6 +18,10 @@ export const resume = {
     summary:
       "Highly ambitious and self-motivated Software Engineer with 5+ years of experience in the IT field, including comprehensive knowledge and hands-on experience with AWS and Azure, programming / software development, network administration and technical support.",
   },
+  beganWorkingInTech: {
+    month: '8',
+    year: '2017'
+  },
   profiles: [
     {
       name: "GitHub",
@@ -113,7 +117,7 @@ export const resume = {
           tenure: {
             startMonth: "03",
             startYear: "2022",
-            endMonth: "03",
+            endMonth: "04",
             endYear: "2022",
           },
           summary:
@@ -145,7 +149,7 @@ export const resume = {
           tenure: {
             startMonth: "03",
             startYear: "2022",
-            endMonth: "03",
+            endMonth: "04",
             endYear: "2022",
           },
           summary:
@@ -163,7 +167,7 @@ export const resume = {
           tenure: {
             startMonth: "03",
             startYear: "2022",
-            endMonth: "03",
+            endMonth: "04",
             endYear: "2022",
           },
           summary:
@@ -195,7 +199,7 @@ export const resume = {
           tenure: {
             startMonth: "03",
             startYear: "2022",
-            endMonth: "03",
+            endMonth: "04",
             endYear: "2022",
           },
           summary:
@@ -227,7 +231,7 @@ export const resume = {
           tenure: {
             startMonth: "03",
             startYear: "2022",
-            endMonth: "03",
+            endMonth: "04",
             endYear: "2022",
           },
           summary:
@@ -245,7 +249,7 @@ export const resume = {
           tenure: {
             startMonth: "03",
             startYear: "2022",
-            endMonth: "03",
+            endMonth: "04",
             endYear: "2022",
           },
           summary:
@@ -277,7 +281,7 @@ export const resume = {
           tenure: {
             startMonth: "03",
             startYear: "2022",
-            endMonth: "03",
+            endMonth: "04",
             endYear: "2022",
           },
           summary:
@@ -309,7 +313,7 @@ export const resume = {
           tenure: {
             startMonth: "03",
             startYear: "2022",
-            endMonth: "03",
+            endMonth: "04",
             endYear: "2022",
           },
           summary:
@@ -341,7 +345,7 @@ export const resume = {
           tenure: {
             startMonth: "03",
             startYear: "2022",
-            endMonth: "03",
+            endMonth: "04",
             endYear: "2022",
           },
           summary:

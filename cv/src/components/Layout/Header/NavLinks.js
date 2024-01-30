@@ -4,6 +4,10 @@ import { useState, useEffect } from "react";
 import MenuIcon from "../../UI/Icon/MenuIcon";
 import IconWrapper from "../../UI/Icon/IconWrapper";
 import NavModal from "./NavModal";
+import { resume } from "../../../resume/resume";
+
+const blogEntry = resume.profiles.find(profile => profile.name === "Blog");
+const blogUrl = blogEntry.link
 
 export default function NavLinks() {
   const [isMobile, setIsMobile] = useState(false);
@@ -72,10 +76,11 @@ export default function NavLinks() {
               </li>
               <li>
               <NavLink
-                to="/blog"
+                to={blogUrl}
                 className={({ isActive }) =>
                   isActive ? classes.active : undefined
                 }
+                target="_blank"
                 end
               >
                 Blog
