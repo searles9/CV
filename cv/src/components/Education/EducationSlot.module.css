@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    color: var(--color-gray-600);
+  }
+  
+  .detailsContainer {
+    padding: 0 1rem;
+  }
+
+  .container p,
+  .container h4,
+  .container h5,
+  .container h3 {
+    margin: 0;
+  }
+
+  @media only screen and (max-width: 630px) {
+    .icon {
+      display: none;
+    }
+  }
+  

@@ -1,3 +1,4 @@
+import Education from "../components/Education/Education";
 import Experience from "../components/Experience/Experience";
 import PageTitle from "../components/PageTitle/PageTitle";
 import SectionTitle from "../components/SectionTitle/SectionTitle";
@@ -12,7 +13,8 @@ export default function Resume() {
       <SectionTitle>Experience</SectionTitle>
       <Experience />
       <SectionTitle>Certifications</SectionTitle>
-      <SectionTitle>Education</SectionTitle>    
+      <SectionTitle>Education</SectionTitle>
+      <Education /> 
     </div>
   );
 }

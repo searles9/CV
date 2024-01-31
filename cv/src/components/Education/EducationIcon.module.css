@@ -1,0 +1,9 @@
+.educationIcon {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid var(--color-vibrant-blue);
+}

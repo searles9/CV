@@ -19,8 +19,8 @@ export const resume = {
       "Highly ambitious and self-motivated Software Engineer with 5+ years of experience in the IT field, including comprehensive knowledge and hands-on experience with AWS and Azure, programming / software development, network administration and technical support.",
   },
   beganWorkingInTech: {
-    month: '8',
-    year: '2017'
+    month: "8",
+    year: "2017",
   },
   profiles: [
     {
@@ -291,7 +291,7 @@ export const resume = {
             "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
             "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
           ],
-        }
+        },
       ],
     },
     {
@@ -323,7 +323,7 @@ export const resume = {
             "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
             "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
           ],
-        }
+        },
       ],
     },
     {
@@ -355,10 +355,52 @@ export const resume = {
             "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
             "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
           ],
-        }
+        },
       ],
     },
   ],
-  education: [],
+  education: [
+    {
+      institution: {
+        name: "Rockdale Career Academy",
+        url: "https://rca.rockdaleschools.org/",
+        location: {
+          city: "Conyers",
+          region: "Georgia",
+          countryCode: "US",
+        },
+      },
+      enrollmentPeriod: {
+        startYear: "2016",
+        endYear: "2018"
+      },
+      fieldOfStudy: "Information Technology",
+      degree: null,
+      courses: [
+        "IT Fundamentals",
+        "Networking Fundamentals",
+        "Cisco Systems and Support",
+        "Computer Science Programming"
+      ]
+    },
+    {
+      institution: {
+        name: "Heritage High School",
+        url: "https://hhs.rockdaleschools.org/",
+        location: {
+          city: "Conyers",
+          region: "Georgia",
+          countryCode: "US",
+        },
+      },
+      enrollmentPeriod: {
+        startYear: "2014",
+        endYear: "2018"
+      },
+      fieldOfStudy: "General Studies",
+      degree: "High School Diploma",
+      courses: []
+    },
+  ],
   certificates: [],
 };
