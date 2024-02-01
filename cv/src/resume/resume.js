@@ -38,46 +38,113 @@ export const resume = {
   ],
   skills: [
     {
-      name: "AWS",
+      "skillGroupName": "Cloud",
+      "skills": [
+        {
+          "name": "AWS"
+        },
+        {
+          "name": "Azure"
+        }
+      ]
     },
     {
-      name: "Azure",
+      "skillGroupName": "Development",
+      "skills": [
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "React.js"
+        },
+        {
+          "name": "React Native"
+        },
+        {
+          "name": "Node.js"
+        },
+        {
+          "name": "Python"
+        },
+        {
+          "name": "Redux.js - Redux Toolkit"
+        },
+        {
+          "name": "React Router"
+        },
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "CSS"
+        },
+        {
+          "name": "Markdown"
+        },
+        {
+          "name": "Terraform"
+        }
+      ]
     },
     {
-      name: "HTML",
+      "skillGroupName": "Scripting",
+      "skills": [
+        {
+          "name": "Bash"
+        },
+        {
+          "name": "PowerShell"
+        }
+      ]
     },
     {
-      name: "CSS",
+      "skillGroupName": "Networking",
+      "skills": [
+        {
+          "name": "IPv4"
+        },
+        {
+          "name": "IPv6"
+        },
+        {
+          "name": "Switches"
+        },
+        {
+          "name": "Routers"
+        },
+        {
+          "name": "Firewalls"
+        }
+      ]
     },
     {
-      name: "JavaScript",
-    },
-    {
-      name: "Node.js",
-    },
-    {
-      name: "Python",
-    },
-    {
-      name: "React.js",
-    },
-    {
-      name: "React Native",
-    },
-    {
-      name: "Redux & Redux Toolkit",
-    },
-    {
-      name: "React Router",
-    },
-    {
-      name: "Terraform",
-    },
-    {
-      name: "Bash",
-    },
-    {
-      name: "Powershell",
+      "skillGroupName": "Additional Technical Skills",
+      "skills": [
+        {
+          "name": "Serverless architecture"
+        },
+        {
+          "name": "Microservices architecture"
+        },
+        {
+          "name": "REST APIs"
+        },
+        {
+          "name": "CI/CD"
+        },
+        {
+          "name": "GitHub"
+        },
+        {
+          "name": "GitHub Actions"
+        },
+        {
+          "name": "Agile and Scrum"
+        },
+        {
+          "name": "Linux"
+        }
+      ]
     },
   ],
   work: [

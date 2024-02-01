@@ -1,13 +1,10 @@
 TO-DO:
-* Change the title text color on the education title to match the position title text color
-* Change the work icon to a study icon
-* Add a see more to the education portion if the courses value is populated 
-    * (the button should have a left padding and border like the position)
-* Update the sills section to be skill groups 
-    * (skill group name has blue border)
-    * The skill group name should be a see more button that when clicked shows the sub skills. It should expand by default
-    * Might want to update the see more button to allow you to define the direction of the arrow (left to right)
-
+* On phone screen size make a button for the skills that says "click to see more"
+    * then show the skills
+    * button goes beneath the skills, and the content above is rendered conditionally 
+    * use state to manage if it is phone screen size (isMobile)
+    * center the button in the middle of the screen
+* Add certifications
 
 * For the certifications, show the first 2, then show a "show all 13 certifications" button to see them all
     * The active ones should have a green active text, and the inactive ones should have a red expired text

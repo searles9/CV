@@ -1,0 +1,16 @@
+.skillGroupNode {
+    margin: 0;
+    box-shadow: 0 10px 10px -8px var(--color-gray-400);
+    color: var(--color-gray-600);
+    border: 2px solid var(--color-vibrant-blue);
+    border-radius: 2rem;
+    padding: .3rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .skillGroupNode:hover {
+      background-color: var(--color-vibrant-blue);
+      color: white;
+      cursor: pointer;
+  }
+  

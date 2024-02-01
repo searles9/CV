@@ -9,11 +9,27 @@
   }
 
   .container p,
+  .container ul,
   .container h4,
   .container h5,
   .container h3 {
     margin: 0;
   }
+
+  .title {
+    color: var(--color-gray-700);
+  }
+
+  .education {
+    padding-left: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-left: 2px solid var(--color-gray-400);
+  }
+
+  .buttonContainer {
+    margin-top: .3rem;
+}
 
   @media only screen and (max-width: 630px) {
     .icon {
