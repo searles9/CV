@@ -46,7 +46,7 @@ export default function EducationSlot({ educationSlot }) {
                 toggleExpanded={toggleExpanded}
                 expandedText="See Less"
                 collapsedText="See Details"
-                borderless={false}
+                borderless={isExpanded ? true : false}
               />
             </div>
           </div>

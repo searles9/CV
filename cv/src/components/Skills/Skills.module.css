@@ -1,3 +1,23 @@
-.skillGroupsContainer > :not(:last-child) {
-    margin-bottom: 1rem;
-  }
+.skillsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  padding:0 2rem;
+}
+
+.standardPadding {
+  padding:0 2.5rem;
+}
+
+.mobilePadding {
+  padding: 0;
+}
+
+.buttonContainer {
+  margin-top: 1.5rem;
+}
+

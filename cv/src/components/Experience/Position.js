@@ -53,7 +53,7 @@ export default function Position({ position }) {
           toggleExpanded={toggleExpanded}
           expandedText="See Less"
           collapsedText="See Details"
-          borderless={false}
+          borderless={isExpanded ? true : false}
         />
       </div>
     </div>

@@ -1,10 +1,6 @@
 TO-DO:
-* On phone screen size make a button for the skills that says "click to see more"
-    * then show the skills
-    * button goes beneath the skills, and the content above is rendered conditionally 
-    * use state to manage if it is phone screen size (isMobile)
-    * center the button in the middle of the screen
 * Add certifications
+* Add a map on the contact page using leaflet ( above it put the text "Based in Atlanta GA")
 
 * For the certifications, show the first 2, then show a "show all 13 certifications" button to see them all
     * The active ones should have a green active text, and the inactive ones should have a red expired text
