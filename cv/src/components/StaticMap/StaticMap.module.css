@@ -1,0 +1,10 @@
+.map p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: var(--color-gray-600);
+}
+
+.map {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}

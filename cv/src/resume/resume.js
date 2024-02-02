@@ -469,5 +469,21 @@ export const resume = {
       courses: []
     },
   ],
-  certificates: [],
+  certificates: [
+    {
+      "name": "xxx",
+      "issuer": "xxx",
+      "issueDate": {
+        "issueYear": "x",
+        "issueMonth": "x",
+        "issueDay": "x",
+      },
+      "expiryDate": {
+        "expires": true,
+        "expiryYear": "x",
+        "expiryMonth": "x",
+        "expiryDay": "x",
+      }
+    }
+  ],
 };
