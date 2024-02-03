@@ -1,12 +1,7 @@
 TO-DO:
-* Add certifications to site
-    * should be a fixed width and height 
-    * use flex
-    * 2-3 at full width
-    * below 563px (confirm value) then make the certification 100% width
-    * cert should have a large drop shadow when hovered over
-    * gap of 1rem between certs
-    * Get colors for valid and invalid + the background text for it
+* fix leaflet map showing over the menu modal (z index need to be over 1000)
+* add conditional logic for showing the expired or active class
+* add see more certifications button (button should show how many there are ... see all 5 certifications )
 * Make the functions to update the certification details on the home page
 * Update footer to pull specific links
 

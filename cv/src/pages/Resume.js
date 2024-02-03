@@ -1,3 +1,4 @@
+import Certificates from "../components/Certificates/Certificates";
 import Education from "../components/Education/Education";
 import Experience from "../components/Experience/Experience";
 import PageTitle from "../components/PageTitle/PageTitle";
@@ -13,6 +14,7 @@ export default function Resume() {
       <SectionTitle>Experience</SectionTitle>
       <Experience />
       <SectionTitle>Certifications</SectionTitle>
+      <Certificates />
       <SectionTitle>Education</SectionTitle>
       <Education /> 
     </div>
