@@ -91,6 +91,15 @@ export function getShortMonthName(month) {
   }
 }
 
+export function isDateAfterToday(dateToCompare) {
+  // Get the current date
+  const today = new Date();
+  // Parse the dateToCompare string into a Date object
+  const parsedDate = new Date(dateToCompare);
+  // Compare the two dates
+  return parsedDate > today;
+}
+
 // expects a list of positions
 export function calculateTotalTenure(positions) {
   const extractedTenure = positions.map((position) => {
@@ -124,4 +133,15 @@ export function calculateTotalTenure(positions) {
 
   const totalTenure = addDateValues(...extractedTenure);
   return formatYearsMonths(totalTenure.years, totalTenure.months);
+}
+
+export function certificationIsActive(certification) {
+  let isActive;
+  if (certification.expiryDate.expires) {
+    const expiryDate = `${certification.expiryDate.expiryYear}-${certification.expiryDate.expiryMonth}-${certification.expiryDate.expiryDay}`;
+    isActive = isDateAfterToday(expiryDate);
+  } else {
+    isActive = true;
+  }
+  return isActive;
 }

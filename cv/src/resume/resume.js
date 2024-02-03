@@ -471,18 +471,48 @@ export const resume = {
   ],
   certificates: [
     {
-      "name": "xxx",
-      "issuer": "xxx",
+      "name": "AWS Certified Developer – Associate",
+      "issuer": "Amazon Web Services (AWS)",
       "issueDate": {
-        "issueYear": "x",
-        "issueMonth": "x",
-        "issueDay": "x",
+        "issueYear": "2023",
+        "issueMonth": "03",
+        "issueDay": "01",
       },
       "expiryDate": {
         "expires": true,
-        "expiryYear": "x",
-        "expiryMonth": "x",
-        "expiryDay": "x",
+        "expiryYear": "2025",
+        "expiryMonth": "05",
+        "expiryDay": "01",
+      }
+    },
+    {
+      "name": "AWS Certified Developer – Associate",
+      "issuer": "Amazon Web Services (AWS)",
+      "issueDate": {
+        "issueYear": "2023",
+        "issueMonth": "03",
+        "issueDay": "01",
+      },
+      "expiryDate": {
+        "expires": true,
+        "expiryYear": "2023",
+        "expiryMonth": "05",
+        "expiryDay": "01",
+      }
+    },
+    {
+      "name": "AWS Certified Developer – Associate",
+      "issuer": "Amazon Web Services (AWS)",
+      "issueDate": {
+        "issueYear": "2023",
+        "issueMonth": "03",
+        "issueDay": "01",
+      },
+      "expiryDate": {
+        "expires": true,
+        "expiryYear": "2023",
+        "expiryMonth": "05",
+        "expiryDay": "01",
       }
     }
   ],

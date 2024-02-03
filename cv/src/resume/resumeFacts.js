@@ -1,5 +1,5 @@
 import { resume } from "./resume";
-import { calculateDateDifference, getCurrentDate } from "../util/dateUtil";
+import { calculateDateDifference, getCurrentDate, certificationIsActive } from "../util/dateUtil";
 
 // resume.basics.name
 export function yearsOld() {
@@ -24,9 +24,24 @@ export function yearsInTech() {
 }
 
 export function ActiveCertifications() {
-  return "X";
+  const certificates = resume.certificates;
+  
+  const activeCertifications = certificates.reduce((count, certification) => {
+    return count + (certificationIsActive(certification) ? 1 : 0);
+  }, 0);
+  
+  return activeCertifications;
 }
 
+
 export function ExpiredCertifications() {
-  return "X";
+  const certificates = resume.certificates;
+  
+  const expiredCertifications = certificates.reduce((count, certification) => {
+    return count + (!certificationIsActive(certification) ? 1 : 0);
+  }, 0);
+  
+  return expiredCertifications;
 }
+
+
