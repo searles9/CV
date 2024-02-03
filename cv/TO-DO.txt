@@ -1,7 +1,9 @@
 TO-DO:
-* fix the facts. Should show a row of two, never a row of 3
-* Update footer to pull specific links
+* Make the iccon componenets for the contact page
+* make a general component for each card on the contact page (infoCard)
 * Make the contact page
+* fix the facts. Should show a row of two, never a row of 3
+* drop shadow when you hover over the facts
 
 
 ....

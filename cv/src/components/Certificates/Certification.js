@@ -3,7 +3,8 @@ import CertificationIcon from "./CertificationIcon";
 import { getShortMonthName, certificationIsActive } from "../../util/dateUtil";
 
 export default function Certification({ certification }) {
-  const isActive = certificationIsActive(certification)
+  const expires = certification.expiryDate.expires;
+  const isActive = certificationIsActive(certification);
 
   return (
     <div className={classes.certification}>
@@ -13,11 +14,15 @@ export default function Certification({ certification }) {
       <div className={classes.certDetails}>
         <h3 className={classes.title}>{certification.name}</h3>
         <p>{certification.issuer}</p>
-        <p>{`${getShortMonthName(certification.issueDate.issueMonth)} ${
-          certification.issueDate.issueYear
-        } - ${getShortMonthName(certification.expiryDate.expiryMonth)} ${
-          certification.expiryDate.expiryYear
-        }`}</p>
+        <p>
+          {`${getShortMonthName(certification.issueDate.issueMonth)} ${
+            certification.issueDate.issueYear
+          }`}
+          {expires &&
+            ` - ${getShortMonthName(certification.expiryDate.expiryMonth)} ${
+              certification.expiryDate.expiryYear
+            }`}
+        </p>
         <div className={classes.statusContainer}>
           <p
             className={`${classes.status} ${

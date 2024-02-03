@@ -1,28 +1,16 @@
 import { v4 as uuidv4 } from "uuid";
 import { Link } from "react-router-dom";
 import classes from "./Footer.module.css";
+import {resume} from '../../../resume/resume';
 
-const DUMMY_LINKS = [
-  {
-    name: "GitHub",
-    link: "https://github.com/searles9",
-  },
-  {
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/donovansearles/",
-  },
-  {
-    name: "Blog",
-    link: "https://blog.dsearles.com/",
-  },
-];
+const profiles = resume.profiles
 
 export default function Footer() {
   return (
     <footer className={classes.footer}>
       <div className={classes.links}>
         <ul>
-          {DUMMY_LINKS.map((link) => (
+          {profiles.map((link) => (
             <li key={uuidv4()}>
               <Link to={link.link} target="_blank">
                 {link.name}
