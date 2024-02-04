@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function IconWrapper({ icon, color, feedbackColor, size, onClick }) {
+export default function IconWrapper({ icon, color, feedbackColor, size, onClick, stroke }) {
   const [isHovered, setIsHovered] = useState(false);
 
   function handleMouseEnter() {
@@ -35,6 +35,7 @@ export default function IconWrapper({ icon, color, feedbackColor, size, onClick 
       {React.cloneElement(icon, {
         color: iconColor,
         size: size,
+        stroke: stroke ? stroke : 2
       })}
     </div>
   );

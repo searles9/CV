@@ -1,7 +1,11 @@
 TO-DO:
-* Make the iccon componenets for the contact page
-* make a general component for each card on the contact page (infoCard)
-* Make the contact page
+* Convert favicon to white color
+* Create 512 png version of favicon
+* Create 192 png version of favicon
+* Convert the contact items to links - add on hover
+* Dynamically pull links from 
+
+
 * fix the facts. Should show a row of two, never a row of 3
 * drop shadow when you hover over the facts
 

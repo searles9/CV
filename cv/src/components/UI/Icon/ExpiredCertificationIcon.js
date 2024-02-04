@@ -1,5 +1,5 @@
 import { IconCertificateOff } from "@tabler/icons-react";
 
-export default function ExpiredCertificationIcon({ color, size }) {
-  return <IconCertificateOff color={color} size={size}/>;
+export default function ExpiredCertificationIcon(props) {
+  return <IconCertificateOff {...props}/>;
 }

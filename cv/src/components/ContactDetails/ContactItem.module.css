@@ -1,0 +1,13 @@
+.itemContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.textContainer h4 {
+    color: #333333;
+    font-weight: 600;
+    margin: 0;
+    word-break: break-all;
+}

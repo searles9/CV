@@ -1,5 +1,5 @@
 import { IconCertificate } from "@tabler/icons-react";
 
-export default function CertificateIcon({ color, size }) {
-  return <IconCertificate color={color} size={size}/>;
+export default function CertificateIcon(props) {
+  return <IconCertificate {...props}/>;
 }
