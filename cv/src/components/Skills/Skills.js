@@ -9,9 +9,10 @@ import React from "react";
 
 export default function Skills() {
   const skills = resume.skills;
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 576);
-  const [isExpanded, setIsExpanded] = useState(true);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const initalWindowWidthIsMobile = window.innerWidth <= 576;
+  const [isMobile, setIsMobile] = useState(initalWindowWidthIsMobile);
+  const [isExpanded, setIsExpanded] = useState(initalWindowWidthIsMobile ? false : true);
+  const [windowWidth, setWindowWidth] = useState(initalWindowWidthIsMobile);
 
   useEffect(() => {
     function handleResize() {
