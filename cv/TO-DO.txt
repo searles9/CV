@@ -1,5 +1,6 @@
 TO-DO:
 * Add a 404 page
+    * just make the page content show "404 page not found" and it should have the nav and footer.
 * Add a loading screen
 * Deploy to GitHub actions
 * Add the circle icons to the homepage 
