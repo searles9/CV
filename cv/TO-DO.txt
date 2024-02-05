@@ -6,6 +6,7 @@ TO-DO:
 * Add a loading screen
 * Deploy to GitHub actions
 * Add the circle icons to the homepage 
+* Make a github action that runs the git deploy
 
 
 * fix the facts. Should show a row of two, never a row of 3
