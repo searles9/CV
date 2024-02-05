@@ -9,17 +9,22 @@ import React from "react";
 
 export default function Skills() {
   const skills = resume.skills;
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 576);
   const [isExpanded, setIsExpanded] = useState(true);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     function handleResize() {
-      const windowIsMobile = window.innerWidth <= 576; // 768
-      setIsMobile(windowIsMobile);
-      if (windowIsMobile) {
-        setIsExpanded(false);
-      } else {
-        setIsExpanded(true);
+      const currentWidth = window.innerWidth;
+      const windowIsMobile = currentWidth <= 576;
+      if (windowWidth !== currentWidth) {
+        setWindowWidth(currentWidth);
+        setIsMobile(windowIsMobile);
+        if (windowIsMobile) {
+          setIsExpanded(false);
+        } else {
+          setIsExpanded(true);
+        }
       }
     }
 
@@ -29,7 +34,7 @@ export default function Skills() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [windowWidth]);
 
   function toggleExpanded() {
     setIsExpanded(!isExpanded);
@@ -38,7 +43,11 @@ export default function Skills() {
   return (
     <div>
       {isExpanded && (
-        <div className={`${classes.skillsContainer} ${isMobile ? classes.mobilePadding : classes.standardPadding}`}>
+        <div
+          className={`${classes.skillsContainer} ${
+            isMobile ? classes.mobilePadding : classes.standardPadding
+          }`}
+        >
           {skills.map((skillGroup, index) => (
             <React.Fragment key={uuidv4()}>
               <SkillGroupNode skillGroupName={skillGroup.skillGroupName} />
