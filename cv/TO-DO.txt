@@ -1,4 +1,5 @@
 TO-DO:
+* make a variable to hold the "mobile pixel size" - ex is it 557 or 991
 * Fix the nav links resizing code - should also check if the width has changed before setting anything
 * Add a 404 page
     * just make the page content show "404 page not found" and it should have the nav and footer.
