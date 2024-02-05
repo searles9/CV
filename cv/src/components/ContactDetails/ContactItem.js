@@ -19,7 +19,7 @@ export default function ContactItem({ icon, title, isLink = false, linkTo }) {
         {!isLink && <h4 className={classes.title}>{title}</h4>}
         {isLink && (
           <Link to={linkTo ? linkTo : ""} target="_blank">
-            {title} ↗
+            {title}
           </Link>
         )}
       </div>

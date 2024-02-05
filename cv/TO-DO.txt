@@ -1,4 +1,5 @@
 TO-DO:
+* Fix the skills portion closing on ios (its because it thinks the size is changing so it -resets)
 * Add a 404 page
     * just make the page content show "404 page not found" and it should have the nav and footer.
 * Add a loading screen
