@@ -6,15 +6,15 @@ export const resume = {
     emailAlias: "cv",
     dob: "2000-07-20",
     phone: {
-      "country-code": "+1",
-      "area-code": "706",
-      "local-number": "510-8996",
+      countryCode: "+1",
+      areaCode: "706",
+      localNumber: "510-8996",
     },
     location: {
       city: "Atlanta",
       state: "GA",
       country: "United States",
-      "country-code": "US",
+      countryCode: "US",
     },
     summary:
       "Highly ambitious and self-motivated Software Engineer with 5+ years of experience in the IT field, including comprehensive knowledge and hands-on experience with AWS and Azure, programming / software development, network administration and technical support.",
@@ -23,20 +23,20 @@ export const resume = {
     month: "8",
     year: "2017",
   },
-  profiles: [
-    {
+  profiles: {
+    GitHub: {
       name: "GitHub",
       link: "https://github.com/searles9",
     },
-    {
+    LinkedIn: {
       name: "LinkedIn",
       link: "https://www.linkedin.com/in/donovansearles/",
     },
-    {
+    Blog: {
       name: "Blog",
       link: "https://blog.dsearles.com/",
     },
-  ],
+  },
   skills: [
     {
       skillGroupName: "Cloud",

@@ -6,9 +6,6 @@ import IconClose from "../../UI/Icon/CloseIcon";
 import IconWrapper from "../../UI/Icon/IconWrapper";
 import { resume } from "../../../resume/resume";
 
-const blogEntry = resume.profiles.find(profile => profile.name === "Blog");
-const blogUrl = blogEntry.link
-
 export default function NavModal({ isOpen, onClose }) {
   if (!isOpen) return null;
 
@@ -39,7 +36,7 @@ export default function NavModal({ isOpen, onClose }) {
           </NavLink>
         </li>
         <li>
-          <NavLink to={blogUrl} target="_blank" onClick={handleCloseModal}>
+          <NavLink to={resume.profiles["Blog"].link} target="_blank" onClick={handleCloseModal}>
             Blog
           </NavLink>
         </li>

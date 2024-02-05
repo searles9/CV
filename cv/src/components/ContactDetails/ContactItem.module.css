@@ -6,8 +6,20 @@
 }
 
 .textContainer h4 {
-    color: #333333;
+    color: var(--color-gray-700);
     font-weight: 600;
     margin: 0;
     word-break: break-all;
+}
+
+.textContainer a {
+    text-decoration: underline;
+    color: var(--color-gray-700);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.textContainer a:hover {
+    text-decoration: none;
+    color: var(--color-gray-600);
 }

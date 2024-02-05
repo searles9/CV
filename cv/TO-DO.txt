@@ -1,9 +1,8 @@
 TO-DO:
-* Convert favicon to white color
-* Create 512 png version of favicon
-* Create 192 png version of favicon
-* Convert the contact items to links - add on hover
-* Dynamically pull links from 
+* Add a 404 page
+* Add a loading screen
+* Deploy to GitHub actions
+* Add the circle icons to the homepage 
 
 
 * fix the facts. Should show a row of two, never a row of 3

@@ -6,23 +6,47 @@ import LinkedInIcon from "../UI/Icon/LinkedInIcon";
 import GitHubIcon from "../UI/Icon/GitHubIcon";
 import BlogIcon from "../UI/Icon/BlogIcon";
 import ContactItem from "./ContactItem";
+import { resume } from "../../resume/resume";
+
+// Email
+const resumeEmail = resume.basics.email;
+const emailParts = resumeEmail.split("@");
+const email = `${emailParts[0]}+${resume.basics.emailAlias}@${emailParts[1]}`;
+
+// Phone Number
+const phone = `${resume.basics.phone.countryCode} (${resume.basics.phone.areaCode}) ${resume.basics.phone.localNumber}`;
+
+// Location
+const location = `${resume.basics.location.city} ${resume.basics.location.state}, ${resume.basics.location.countryCode}`
 
 export default function ContactDetails() {
   return (
     <div className={classes.container}>
       <div className={classes.links}>
         <div className={`${classes.basics} ${classes.flexList}`}>
-          <ContactItem
-            icon={<EmailIcon />}
-            title="donovansearles+cv@gmail.com"
-          />
-          <ContactItem icon={<PhoneIcon />} title="+1 (706) 510-8996" />
-          <ContactItem icon={<LocationIcon />} title="Atlanta GA, US" />
+          <ContactItem icon={<EmailIcon />} title={email} />
+          <ContactItem icon={<PhoneIcon />} title={phone} />
+          <ContactItem icon={<LocationIcon />} title={location} />
         </div>
         <div className={`${classes.profiles} ${classes.flexList}`}>
-          <ContactItem icon={<LinkedInIcon />} title="LinkedIn" />
-          <ContactItem icon={<GitHubIcon />} title="GitHub" />
-          <ContactItem icon={<BlogIcon />} title="Blog" />
+          <ContactItem
+            icon={<LinkedInIcon />}
+            title="LinkedIn"
+            isLink={true}
+            linkTo={resume.profiles["LinkedIn"].link}
+          />
+          <ContactItem
+            icon={<GitHubIcon />}
+            title="GitHub"
+            isLink={true}
+            linkTo={resume.profiles["GitHub"].link}
+          />
+          <ContactItem
+            icon={<BlogIcon />}
+            title="Blog"
+            isLink={true}
+            linkTo={resume.profiles["Blog"].link}
+          />
         </div>
       </div>
       <div className={classes.text}>
