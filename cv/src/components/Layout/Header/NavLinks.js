@@ -7,12 +7,20 @@ import NavModal from "./NavModal";
 import { resume } from "../../../resume/resume";
 
 export default function NavLinks() {
-  const [isMobile, setIsMobile] = useState(false);
+  const mobileScreenWidth = 991;
+  const initalWindowWidthIsMobile = window.innerWidth <= mobileScreenWidth;
+  const [isMobile, setIsMobile] = useState(initalWindowWidthIsMobile);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     function handleResize() {
-      setIsMobile(window.innerWidth <= 991);
+      const currentWidth = window.innerWidth;
+      const windowIsMobile = currentWidth <= mobileScreenWidth;
+      if (windowWidth !== currentWidth) {
+        setWindowWidth(currentWidth);
+        setIsMobile(windowIsMobile);
+      }
     }
 
     handleResize();
@@ -21,7 +29,7 @@ export default function NavLinks() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [windowWidth]);
 
 
   function openModal() {

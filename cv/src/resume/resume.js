@@ -82,6 +82,11 @@ export const resume = {
         {
           name: "Markdown",
         },
+      ],
+    },
+    {
+      skillGroupName: "Infrastructure as code",
+      skills: [
         {
           name: "Terraform",
         },
