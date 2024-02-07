@@ -1,20 +1,9 @@
 TO-DO:
-* Add the circle icons to the homepage 
+* Add accurate dates to the jobs
 * Make a github action that runs the git deploy
-* fix the facts. Should show a row of two, never a row of 3
-
-
 ....
 
-* Include links on the home page: Download CV, profile links
 * Update the resume to have all the real details
-* Change the title and the icon of the site
-* Add a 404 error page
-* Add a loading page for the router
-
-
-
-* All units should be rem
 * Add note to the read me about the tabler icons
 * Add note to the repo about which browsers are supported
 
@@ -24,6 +13,3 @@ TO-DO AFTER MVP:
 * Show feedback and an animation when you hover over the facts on the homepage
 * Use framer motion to animate layout changes like "see more" and "see less"
 * Add tests for all the date utilities
-
-
-* Update the resume points: I did X, and here is how it helped

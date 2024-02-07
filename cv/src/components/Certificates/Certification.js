@@ -1,6 +1,7 @@
 import classes from "./Certification.module.css";
 import CertificationIcon from "./CertificationIcon";
 import { getShortMonthName, certificationIsActive } from "../../util/dateUtil";
+import { Link } from 'react-router-dom'
 
 export default function Certification({ certification }) {
   const expires = certification.expiryDate.expires;
@@ -12,7 +13,7 @@ export default function Certification({ certification }) {
         <CertificationIcon />
       </div>
       <div className={classes.certDetails}>
-        <h3 className={classes.title}>{certification.name}</h3>
+        <Link to={certification.url} target="_blank" className={classes.link}><h3 className={classes.title}>{certification.name}</h3></Link>
         <p>{certification.issuer}</p>
         <p>
           {`${getShortMonthName(certification.issueDate.issueMonth)} ${

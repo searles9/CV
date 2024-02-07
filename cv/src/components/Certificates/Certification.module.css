@@ -39,6 +39,11 @@
   color: #ff6666;
 }
 
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 630px) {
   .icon {
     display: none;
