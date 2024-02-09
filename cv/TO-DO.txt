@@ -1,4 +1,5 @@
 TO-DO:
+* If summay is not provided dont render the summary line on the experience page
 * Convert the company titles to links
 * Make a github action that runs the git deploy
 * If internship, make the text bold (font-weight)
