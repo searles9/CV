@@ -1,6 +1,7 @@
 TO-DO:
-* Add accurate dates to the jobs
+* Convert the company titles to links
 * Make a github action that runs the git deploy
+* If internship, make the text bold (font-weight)
 ....
 
 * Update the resume to have all the real details
