@@ -17,7 +17,7 @@ export const resume = {
       countryCode: "US",
     },
     summary:
-      "Highly ambitious and self-motivated Software Engineer with 5+ years of experience in the IT field, including comprehensive knowledge and hands-on experience with AWS and Azure, programming / software development, network administration and technical support.",
+      "Results-oriented Software Engineer with specialized expertise in cloud technologies, including AWS and Azure, and a strong foundation in modern development frameworks, including React for web development and React Native for cross-platform applications. With multiple years of diverse experience in the IT sector, my early roles have laid a strong foundation in essential IT disciplines, enhancing my ability to understand and navigate the complex technological landscape. This unique combination of skills enables me to architect and deliver scalable, full-stack cloud solutions, adeptly integrating backend and frontend technologies to meet contemporary digital demands.",
   },
   beganWorkingInTech: {
     month: "8",
@@ -120,6 +120,14 @@ export const resume = {
         },
         {
           name: "Firewalls",
+        },
+      ],
+    },
+    {
+      skillGroupName: "UI/UX",
+      skills: [
+        {
+          name: "Figma",
         },
       ],
     },
