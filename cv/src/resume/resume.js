@@ -184,11 +184,11 @@ export const resume = {
             startYear: "2022",
           },
           summary:
-            "Working on a small team of software engineers to deploy an Azure Landing zone",
+            "Plays a crucial role in the team's pioneering effort to deploy an Azure Landing Zone, creating scalable, secure cloud infrastructure solutions from the ground up. These efforts significantly enhance the operational capabilities of the larger enterprise while streamlining Azure application development processes for other teams.",
           highlights: [
-            "Automated the deployment of Azure subscriptions within the org",
-            "Designed, archictected and built solutions that account for for scale, security governance, networking, and identity management.",
-            "Used Terraform (infrastructure as code) to deploy infrstructure in AWS and Azure",
+            "Contributes to the collaborative effort of designing, architecting, and implementing scalable, secure cloud infrastructure solutions, addressing critical aspects such as security governance, networking, identity management and cost.",
+            "Utilizes a suite of tools, including but not limited to Terraform, Node.js, AWS Step Functions, AWS Lambda, Azure Functions, contract-driven REST APIs, GitHub Action CI/CD workflows, and custom scripts, to aid in the automation of the Azure landing zone.",
+            "Recognized the team's lack of technical documentation, took initiative, and spearheaded the development of a repository and documentation process. This involved creating and maintaining comprehensive technical documentation, enhancing knowledge sharing across the team.",
           ],
         },
         {
