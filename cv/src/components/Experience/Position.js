@@ -39,23 +39,27 @@ export default function Position({ position }) {
       </div>
       {isExpanded && (
         <div className={classes.positionDetails}>
-          <p>{position.summary}</p>
-          <ul className={classes.highlights}>
-            {position.highlights.map((highlight) => (
-              <li key={uuidv4()}>{highlight}</li>
-            ))}
-          </ul>
+          {position.summary && <p>{position.summary}</p>}
+          {position.highlights.length > 0 && (
+            <ul className={classes.highlights}>
+              {position.highlights.map((highlight) => (
+                <li key={uuidv4()}>{highlight}</li>
+              ))}
+            </ul>
+          )}
         </div>
       )}
-      <div className={classes.buttonContainer}>
-        <SeeMoreButton
-          expanded={isExpanded}
-          toggleExpanded={toggleExpanded}
-          expandedText="See Less"
-          collapsedText="See Details"
-          borderless={isExpanded ? true : false}
-        />
-      </div>
+      {(position.summary || position.highlights.length > 0) && (
+        <div className={classes.buttonContainer}>
+          <SeeMoreButton
+            expanded={isExpanded}
+            toggleExpanded={toggleExpanded}
+            expandedText="See Less"
+            collapsedText="See Details"
+            borderless={isExpanded ? true : false}
+          />
+        </div>
+      )}
     </div>
   );
 }

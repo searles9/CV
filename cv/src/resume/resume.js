@@ -187,7 +187,7 @@ export const resume = {
             "Plays a crucial role in the team's pioneering effort to deploy an Azure Landing Zone, creating scalable, secure cloud infrastructure solutions from the ground up. These efforts significantly enhance the operational capabilities of the larger enterprise while streamlining Azure application development processes for other teams.",
           highlights: [
             "Contributes to the collaborative effort of designing, architecting, and implementing scalable, secure cloud infrastructure solutions, addressing critical aspects such as security governance, networking, identity management and cost.",
-            "Utilizes a suite of tools, including but not limited to Terraform, Node.js, AWS Step Functions, AWS Lambda, Azure Functions, contract-driven REST APIs, GitHub Action CI/CD workflows, and custom scripts, to aid in the automation of the Azure landing zone.",
+            "Utilizes a suite of tools, including but not limited to Terraform (infrastructure as code), Node.js, AWS Step Functions, AWS Lambda, Azure Functions, contract-driven REST APIs, GitHub Action CI/CD workflows, and custom scripts, to aid in the automation of the Azure landing zone.",
             "Recognized the team's lack of technical documentation, took initiative, and spearheaded the development of a repository and documentation process. This involved creating and maintaining comprehensive technical documentation, enhancing knowledge sharing across the team.",
           ],
         },
@@ -201,11 +201,8 @@ export const resume = {
             endMonth: "03",
             endYear: "2022",
           },
-          summary:
-            "xxx",
-          highlights: [
-            "xxx"
-          ],
+          summary: "",
+          highlights: [],
         },
       ],
     },
@@ -231,11 +228,8 @@ export const resume = {
             endMonth: "06",
             endYear: "2021",
           },
-          summary:
-            "xxx",
-          highlights: [
-            "xxx",
-          ],
+          summary: "",
+          highlights: [],
         },
         {
           title: "Remote Support Technician",
@@ -247,11 +241,8 @@ export const resume = {
             endMonth: "08",
             endYear: "2020",
           },
-          summary:
-            "xxx",
-          highlights: [
-            "xxx",
-          ],
+          summary: "",
+          highlights: [],
         },
       ],
     },
@@ -277,11 +268,8 @@ export const resume = {
             endMonth: "05",
             endYear: "2020",
           },
-          summary:
-            "xxx",
-          highlights: [
-            "xxx",
-          ],
+          summary: "",
+          highlights: [],
         },
       ],
     },
@@ -307,11 +295,8 @@ export const resume = {
             endMonth: "08",
             endYear: "2019",
           },
-          summary:
-            "xxx",
-          highlights: [
-            "xxx",
-          ],
+          summary: "",
+          highlights: [],
         },
         {
           title: "Desktop Engineer",
@@ -323,11 +308,8 @@ export const resume = {
             endMonth: "01",
             endYear: "2019",
           },
-          summary:
-            "xxx",
-          highlights: [
-            "xxx",
-          ],
+          summary: "",
+          highlights: [],
         },
       ],
     },
@@ -353,11 +335,8 @@ export const resume = {
             endMonth: "09",
             endYear: "2018",
           },
-          summary:
-            "xxx",
-          highlights: [
-            "xxx",
-          ],
+          summary: "",
+          highlights: [],
         },
       ],
     },
@@ -383,11 +362,8 @@ export const resume = {
             endMonth: "09",
             endYear: "2018",
           },
-          summary:
-            "xxx",
-          highlights: [
-            "xxx",
-          ],
+          summary: "",
+          highlights: [],
         },
       ],
     },
@@ -413,11 +389,8 @@ export const resume = {
             endMonth: "05",
             endYear: "2018",
           },
-          summary:
-            "xxx",
-          highlights: [
-            "xxx",
-          ],
+          summary: "",
+          highlights: [],
         },
       ],
     },
