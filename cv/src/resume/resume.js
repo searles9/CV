@@ -201,8 +201,12 @@ export const resume = {
             endMonth: "03",
             endYear: "2022",
           },
-          summary: "",
-          highlights: [],
+          summary: "Provided essential AWS-focused cloud support to application development teams at Cox Automotive, ensuring smooth operations and facilitating efficient utilization of cloud resources.",
+          highlights: [
+            "Assisted in troubleshooting and resolving AWS-related issues, ensuring uninterrupted workflow for development teams.",
+            "Leveraged Terraform (infrastructure as code) to deploy AWS resources, ensuring streamlined infrastructure management.",
+            "Addressed diverse AWS-related support requests including setting up VPCs, establishing VPC peerings, deploying client VPNs, managing IAM access keys, and configuring custom IAM roles."
+          ],
         },
       ],
     },
