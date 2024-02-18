@@ -88,7 +88,7 @@ export default function NavLinks() {
                 target="_blank"
                 end
               >
-                Blog
+                Blog ↗
               </NavLink>
               </li>
               <li>
