@@ -37,7 +37,7 @@ export default function NavModal({ isOpen, onClose }) {
         </li>
         <li>
           <NavLink to={resume.profiles["Blog"].link} target="_blank" onClick={handleCloseModal}>
-            Blog ↗
+            Blog
           </NavLink>
         </li>
         <li>
