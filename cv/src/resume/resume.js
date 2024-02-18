@@ -17,7 +17,7 @@ export const resume = {
       countryCode: "US",
     },
     summary:
-      "Results-oriented Software Engineer with specialized expertise in cloud technologies, including AWS and Azure, and a strong foundation in modern development frameworks, including React for web development and React Native for cross-platform applications. With multiple years of diverse experience in the IT sector, my early roles have laid a strong foundation in essential IT disciplines, enhancing my ability to understand and navigate the complex technological landscape. This unique combination of skills enables me to architect and deliver scalable, full-stack cloud solutions, adeptly integrating backend and frontend technologies to meet contemporary digital demands.",
+      "Results-oriented Software Engineer with specialized expertise in cloud technologies, including AWS and Azure, and a strong foundation in modern development frameworks, including React for web development and React Native for cross-platform applications. With multiple years of diverse experience in the IT sector, my early roles have laid a solid groundwork in essential IT disciplines, enhancing my ability to understand and navigate the complex technological landscape. This unique combination of skills enables me to architect and deliver scalable, full-stack cloud solutions, adeptly integrating backend and frontend technologies to meet contemporary digital demands.",
   },
   beganWorkingInTech: {
     month: "8",
