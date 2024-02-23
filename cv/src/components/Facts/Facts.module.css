@@ -8,3 +8,27 @@
   justify-content: center;
   margin-top: 1rem;
 }
+
+/* Little hacky, placeholder for now */
+@media only screen and (max-width: 1370px) {
+  /* wrap to 2 cards per row */
+  .factsContainer {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  /* maintain 2 cards per row */
+  .factsContainer {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  /* card goes to 100% width */
+  .factsContainer {
+    padding: 0;
+  }
+}
