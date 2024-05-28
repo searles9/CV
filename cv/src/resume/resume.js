@@ -56,6 +56,9 @@ export const resume = {
           name: "JavaScript",
         },
         {
+          name: "TypeScript",
+        },
+        {
           name: "React.js",
         },
         {
