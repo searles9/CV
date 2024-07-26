@@ -77,13 +77,13 @@ export const resume = {
           name: "CSS",
         },
         {
-          name: "Markdown",
-        },
-        {
           name: "Redux.js - Redux Toolkit",
         },
         {
           name: "React Router",
+        },
+        {
+          name: "Markdown",
         },
       ],
     },
