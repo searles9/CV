@@ -1,2 +1,2 @@
 # CV
-Donovan Searles Personal CV.
+Donovan Searles Personal CV
