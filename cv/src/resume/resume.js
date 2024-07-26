@@ -56,22 +56,19 @@ export const resume = {
           name: "JavaScript",
         },
         {
+          name: "Node.js",
+        },
+        {
+          name: "TypeScript",
+        },
+        {
           name: "React.js",
         },
         {
           name: "React Native",
         },
         {
-          name: "Node.js",
-        },
-        {
           name: "Python",
-        },
-        {
-          name: "Redux.js - Redux Toolkit",
-        },
-        {
-          name: "React Router",
         },
         {
           name: "HTML",
@@ -81,6 +78,12 @@ export const resume = {
         },
         {
           name: "Markdown",
+        },
+        {
+          name: "Redux.js - Redux Toolkit",
+        },
+        {
+          name: "React Router",
         },
       ],
     },
@@ -138,10 +141,10 @@ export const resume = {
           name: "Serverless architecture",
         },
         {
-          name: "Microservices architecture",
+          name: "REST APIs",
         },
         {
-          name: "REST APIs",
+          name: "GraphQL",
         },
         {
           name: "CI/CD",
@@ -158,10 +161,48 @@ export const resume = {
         {
           name: "Linux",
         },
+        {
+          name: "Test Driven Development (TDD)",
+        },
+        {
+          name: "NoSQL (DynamoDB)",
+        },
+        {
+          name: "Relational Databases (MySQL)",
+        },
       ],
     },
   ],
   work: [
+    {
+      isRelevantExperience: true,
+      company: {
+        name: "WealthSphere LLC",
+        url: "",
+        location: {
+          city: "Atlanta",
+          region: "Georgia",
+          countryCode: "US",
+        },
+      },
+      positions: [
+        {
+          title: "Founder and Full Stack Cloud Developer",
+          locationType: "Remote",
+          employmentType: "",
+          tenure: {
+            isCurrentPosition: true,
+            startMonth: "06",
+            startYear: "2024",
+          },
+          summary:
+            "Currently developing WealthSphere, a simple yet powerful financial planning tool that helps individuals create a long-term financial blueprint. Equipped with powerful analytics and insights, WealthSphere makes it easy to plan and manage your financial future.",
+          highlights: [
+            "Utilizing various technologies including React.js, Terraform, AWS (Cognito, Aurora Serverless, DynamoDB, Lambda, AppSync, API Gateway, and more), along with various third-party integrations."
+          ],
+        },
+      ],
+    },
     {
       isRelevantExperience: true,
       company: {

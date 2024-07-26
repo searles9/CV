@@ -19,6 +19,8 @@ export default function Position({ position }) {
 
   const spanNode = "\u2022";
 
+  const positionTypeAndSpan = `${position.employmentType} ${spanNode}`
+
   return (
     <div className={classes.position}>
       <h4 className={classes.title}>{position.title}</h4>
@@ -34,7 +36,7 @@ export default function Position({ position }) {
           {spanNode} {tenure}
         </p>
         <p>
-          {position.employmentType} {spanNode} {position.locationType}
+          {position.employmentType && positionTypeAndSpan} {position.locationType}
         </p>
       </div>
       {isExpanded && (
